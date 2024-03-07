@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.parallax-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}

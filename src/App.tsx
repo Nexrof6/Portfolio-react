@@ -1,9 +1,7 @@
+import Page_Home from "./templates/Page_Home";
+
 function App() {
-  return (
-    <div className="container">
-      <h1>This is a Portfolio site</h1>
-    </div>
-  );
+  return <Page_Home></Page_Home>;
 }
 
 export default App;
