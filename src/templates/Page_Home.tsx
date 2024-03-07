@@ -3,9 +3,6 @@ import NavBar from "./NavBar";
 import React from "react";
 
 function Page_Home() {
-  // let offset = window.pageYOffset;
-  // console.log(offset);
-
   const [scrollYPosition, setScrollYPosition] = React.useState(0);
 
   const handleScroll = () => {
@@ -33,18 +30,21 @@ function Page_Home() {
             backgroundPositionY: `${scrollYPosition * 0.6}px`, // Adjust the speed of parallax by changing the multiplier
           }}
         >
-          <h1 className="text-center parallax-div-1" id="parallax">
-            DIV 1
-          </h1>
+          <h1 className="text-center parallax-1">DIV 1</h1>
         </div>
         <div>
-          <h1 className="text-center parallax-div-2">DIV 2</h1>
+          <h1 className="text-center parallax-2">DIV 2</h1>
         </div>
         <div>
-          <h1 className="text-center parallax-div-3">DIV 3</h1>
+          <div className="row">
+            <div className="col parallax-3"></div>
+            <div className="col ">
+              <h1 className="text-center parallax">DIV 3</h1>
+            </div>
+          </div>
         </div>
         <div>
-          <h1 className="text-center parallax-div-4">DIV 4</h1>
+          <h1 className="text-center parallax-4">DIV 4</h1>
         </div>
       </main>
     </>
