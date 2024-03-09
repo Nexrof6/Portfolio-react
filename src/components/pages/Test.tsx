@@ -9,8 +9,7 @@ import Parallax2 from "../effects/Parallax/Parallax2";
 import Parallax2L from "../effects/Parallax/Parallax2L";
 import Parallax2R from "../effects/Parallax/Parallax2R";
 
-
-function test() {
+function Test() {
   const [scrollYPosition, setScrollYPosition] = React.useState(0);
 
   const handleScroll = () => {
@@ -74,4 +73,4 @@ function test() {
     </>
   );
 }
-export default test;
+export default Test;
