@@ -21,31 +21,32 @@ function ParallaxTest() {
                 shouldAlwaysCompleteAnimation: true,
                 expanded: false,
               },
-              {
-                image: bg2,
-                translateY: [5, 45],
+              // {
+              //   image: bg2,
+              //   translateY: [5, 45],
 
-                shouldAlwaysCompleteAnimation: true,
-                expanded: false,
-              },
+              //   shouldAlwaysCompleteAnimation: true,
+              //   expanded: false,
+              // },
               {
                 children: (
                   <div
                     style={{
                       color: "white",
-                      position: "absolute",
+                      position: "fixed",
                       top: "30%",
-                      left: "50%",
+                      left: "40%",
                       transform: "translate(-50%, -50%)",
                     }}
                   >
                     <h1
                       style={{
-                        fontSize: "100px",
+                        fontSize: "60px",
                       }}
                     >
-                      Nexrof
-                    </h1>
+                      Nexrof </h1>
+                      <h2>Nexus revolution of future
+                    </h2>
                   </div>
                 ),
                 // translateY: [15, 25],

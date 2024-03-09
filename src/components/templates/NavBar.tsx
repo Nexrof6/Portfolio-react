@@ -34,11 +34,11 @@ function NavBar() {
                 Home
               </a>
             </li>
-            <li className="nav-item ">
+            {/* <li className="nav-item ">
               <a className="nav-link" href="#">
                 Resume
               </a>
-            </li>
+            </li> */}
             <li className="nav-item ">
               <a className="nav-link" href="#">
                 Projects
@@ -47,6 +47,11 @@ function NavBar() {
             <li className="nav-item ">
               <a className="nav-link" href="#">
                 Blog
+              </a>
+            </li>
+              <li className="nav-item ">
+              <a className="nav-link" href="#">
+                Contact
               </a>
             </li>
           </ul>
