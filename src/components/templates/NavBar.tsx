@@ -3,10 +3,10 @@ function NavBar() {
     <nav className="navbar navbar-expand-lg bg-body-tertiaryc p-3">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          Person Name
+          Nexrof
         </a>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler "
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -27,24 +27,24 @@ function NavBar() {
             </svg>
           </span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item">
+        <div className="collapse navbar-collapse " id="navbarNav">
+          <ul className="navbar-nav justify-content-end ms-auto">
+            <li className="nav-item ">
               <a className="nav-link active" aria-current="page" href="#">
                 Home
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item ">
               <a className="nav-link" href="#">
                 Resume
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item ">
               <a className="nav-link" href="#">
                 Projects
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item ">
               <a className="nav-link" href="#">
                 Blog
               </a>
