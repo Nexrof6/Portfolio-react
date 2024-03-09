@@ -4,12 +4,12 @@
   margin: 0;
 }
 
-.parallax {
+/* .parallax {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-}
+} */
 
 @keyframes slideInLeft {
   0% {
@@ -85,9 +85,13 @@ body {
   background: #40255b;
 } */
 
-main {
+.parallax {
   height: 300vh;
 }
+
+/* main {
+  height: 300vh;
+} */
 
 p {
   font-family: helvetica, sans-serif;

@@ -9,7 +9,7 @@ import "/src/index.css";
 console.log("bg1:", bg1);
 function ParallaxTest() {
   return (
-    <main>
+    <main className="parallax">
       <ParallaxProvider>
         <header>
           <ParallaxBanner
