@@ -1,14 +1,16 @@
 // import { useState } from "react";
-import NavBar from "./NavBar";
-import React from "react";
-import Parallax1 from "./Parallax/Parallax1";
-import Parallax2 from "./Parallax/Parallax2";
-import Parallax2L from "./Parallax/Parallax2L";
-import Parallax2R from "./Parallax/Parallax2R";
-import Parallax1L from "./Parallax/Parallax1L";
-import Parallax1R from "./Parallax/Parallax1R";
 
-function Page_Home() {
+import React from "react";
+import NavBar from "../templates/NavBar";
+import Parallax1 from "../effects/Parallax/Parallax1";
+import Parallax1L from "../effects/Parallax/Parallax1L";
+import Parallax1R from "../effects/Parallax/Parallax1R";
+import Parallax2 from "../effects/Parallax/Parallax2";
+import Parallax2L from "../effects/Parallax/Parallax2L";
+import Parallax2R from "../effects/Parallax/Parallax2R";
+
+
+function test() {
   const [scrollYPosition, setScrollYPosition] = React.useState(0);
 
   const handleScroll = () => {
@@ -72,4 +74,4 @@ function Page_Home() {
     </>
   );
 }
-export default Page_Home;
+export default test;
