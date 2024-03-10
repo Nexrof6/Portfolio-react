@@ -14,7 +14,7 @@ const Parallax2L = ({ image, children }: Props) => {
           backgroundAttachment: "fixed",
           backgroundRepeat:"no-repeat",
           backgroundPosition: "left",
-          backgroundSize: "50% 30%",
+          backgroundSize: "52% 60%",
         }}
       >
         {" "}
