@@ -7,11 +7,9 @@ interface Props {
 const Parallax2R = ({ image, children }: Props) => {
   return (
     <div className="row">
-      <div className="col">
-        <h1 className="text-center parallax-static">{children}</h1>
-      </div>
+      
       <div
-        className="col rounded"
+        className="col-md order-md-2 rounded"
         style={{
           backgroundImage: `url(${image})`,
           backgroundAttachment: "fixed",
@@ -19,7 +17,14 @@ const Parallax2R = ({ image, children }: Props) => {
           backgroundPosition: "right",
           backgroundSize: "54% 62%",
         }}
-      ></div>
+        
+      >
+        <span className="parallax-static"></span>
+      </div>
+      <div className="col">
+        <h1 className="text-center parallax-static">{children}</h1>
+      </div>
+      
     </div>
   );
 };

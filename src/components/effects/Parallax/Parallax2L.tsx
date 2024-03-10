@@ -8,7 +8,7 @@ const Parallax2L = ({ image, children }: Props) => {
   return (
     <div className="row  ">
       <div
-        className="col rounded"
+        className="col-md rounded"
         style={{
           backgroundImage: `url(${image})`,
           backgroundAttachment: "fixed",
@@ -17,6 +17,7 @@ const Parallax2L = ({ image, children }: Props) => {
           backgroundSize: "52% 60%",
         }}
       >
+        <span className="parallax-static"></span>
         {" "}
       </div>
       <div className="col">
