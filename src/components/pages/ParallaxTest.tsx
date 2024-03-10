@@ -1,12 +1,7 @@
 import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 
-<<<<<<< HEAD
 import bg1 from "/image/bg-1.png";
 import bg2 from "/image/bg-2.png";
-=======
-import bg1 from "/image/bg-1.jpg";
-// import bg2 from "/image/bg-2.png";
->>>>>>> 5dacfa1 (added about page upto sagar pic)
 import bg3 from "/image/bg-3.png";
 import bg4 from "/image/bg-4.png";
 import bg5 from "/image/bg-5.png";
@@ -26,15 +21,12 @@ function ParallaxTest() {
                 shouldAlwaysCompleteAnimation: true,
                 expanded: false,
               },
-<<<<<<< HEAD
               {
                 image: bg2,
-                translateY: [0, 45],
-=======
+                translateY: [0, 45]},
               // {
               //   image: bg2,
               //   translateY: [5, 45],
->>>>>>> 5dacfa1 (added about page upto sagar pic)
 
               //   shouldAlwaysCompleteAnimation: true,
               //   expanded: false,
