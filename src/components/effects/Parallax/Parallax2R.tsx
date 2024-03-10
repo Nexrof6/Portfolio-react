@@ -15,14 +15,15 @@ const Parallax2R = ({ image, children }: Props) => {
           backgroundAttachment: "fixed",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "right",
-          backgroundSize: "54% 78%",
+          backgroundSize: "58% 80%",
         }}
         
       >
-        <span className="parallax-static"></span>
+        
       </div>
       <div className="col">
         <h1 className="text-center parallax-static">{children}</h1>
+        <span className="parallax-static"></span>
       </div>
       
     </div>
