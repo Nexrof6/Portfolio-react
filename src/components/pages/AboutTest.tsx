@@ -47,6 +47,20 @@ function AboutTest() {
         <div>
           <h1 className="text-center parallax h-75  p-5">“The true ENTREPRENEUR is a risk taker, not an excuse maker.”</h1>
         </div>
+
+        <Parallax2L image="image/ealil.jpg">
+        <h1 className="slide-in-text-right">Right to Left Animation</h1>
+        </Parallax2L>
+        <div>
+          <h1 className="text-center parallax h-75  p-5">“We don't just sell websites, we create websites that SELL.””</h1>
+        </div>
+
+        <Parallax2R image="image/devasri.jpg">
+        <h1 className="slide-in-text-right">Left to Right Animation</h1>
+        </Parallax2R>
+        <div>
+          <h1 className="text-center parallax h-75  p-5">“The true ENTREPRENEUR is a risk taker, not an excuse maker.”</h1>
+        </div>
       </main>
     </>
   );
