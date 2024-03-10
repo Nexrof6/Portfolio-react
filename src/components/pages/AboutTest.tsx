@@ -43,6 +43,7 @@ function AboutTest() {
         <Parallax2R image="image/dharshan.jpg">
         <h1 className="slide-in-text-left">Left to Right Animation</h1>
         </Parallax2R>
+       
         <div>
           <h1 className="text-center parallax h-75  p-5">“The true ENTREPRENEUR is a risk taker, not an excuse maker.”</h1>
         </div>

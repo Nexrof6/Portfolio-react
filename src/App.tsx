@@ -3,7 +3,7 @@ import Home from "./components/pages/Home.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.js";
 import ParallaxTest from "./components/pages/ParallaxTest.js";
-import AboutTest from "./components/pages/AboutTest.js";
+import AboutTest from "./components/pages/AboutTest.tsx";
 function App() {
   return (
     <BrowserRouter>

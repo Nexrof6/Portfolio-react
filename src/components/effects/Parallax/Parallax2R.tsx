@@ -6,20 +6,20 @@ interface Props {
 }
 const Parallax2R = ({ image, children }: Props) => {
   return (
-    <div className="row  img-fluid">
+    <div className="row">
       <div className="col">
         <h1 className="text-center parallax-static">{children}</h1>
-      </div>{" "}
+      </div>
       <div
-        className="col  img-fluid"
+        className="col rounded"
         style={{
           backgroundImage: `url(${image})`,
           backgroundAttachment: "fixed",
-          // backgroundRepeat:"no-repeat",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "right",
+          backgroundSize: "30% 50%",
         }}
-      >
-        {" "}
-      </div>  
+      ></div>
     </div>
   );
 };
