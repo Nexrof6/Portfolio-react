@@ -27,7 +27,7 @@ const Parallax1R = ({ image, children }: Props) => {
         style={{
           backgroundImage: `url(${image})`,
           backgroundPositionY: `${scrollYPosition * 0.5}px`, // Adjust the speed of parallax by changing the multiplier
-          //   backgroundRepeat: "no-repeat",
+            backgroundRepeat: "no-repeat",
         }}
       >
         {" "}

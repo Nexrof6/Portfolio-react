@@ -3,6 +3,7 @@ import Home from "./components/pages/Home.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.js";
 import ParallaxTest from "./components/pages/ParallaxTest.js";
+import AboutTest from "./components/pages/AboutTest.js";
 function App() {
   return (
     <BrowserRouter>
@@ -10,6 +11,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/test" element={<Test />} />
         <Route path="/parallax" element={<ParallaxTest />} />
+        <Route path="/about" element={<AboutTest />} />
       </Routes>
     </BrowserRouter>
   );
