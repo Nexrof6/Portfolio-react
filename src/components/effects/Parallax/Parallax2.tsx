@@ -12,7 +12,7 @@ const Parallax2 = ({ image, children }: Props) => {
         backgroundAttachment: "fixed",
       }}
     >
-      <h1 className="text-center parallax">{children}</h1>
+      <h1 className="text-center parallax-static">{children}</h1>
     </div>
   );
 };

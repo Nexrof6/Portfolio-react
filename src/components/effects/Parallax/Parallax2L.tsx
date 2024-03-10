@@ -17,7 +17,7 @@ const Parallax2L = ({ image, children }: Props) => {
         {" "}
       </div>
       <div className="col">
-        <h1 className="text-center parallax">{children}</h1>
+        <h1 className="text-center parallax-static">{children}</h1>
       </div>
     </div>
   );

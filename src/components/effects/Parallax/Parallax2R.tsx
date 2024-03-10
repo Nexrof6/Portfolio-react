@@ -8,7 +8,7 @@ const Parallax2R = ({ image, children }: Props) => {
   return (
     <div className="row">
       <div className="col">
-        <h1 className="text-center parallax">{children}</h1>
+        <h1 className="text-center parallax-static">{children}</h1>
       </div>{" "}
       <div
         className="col"

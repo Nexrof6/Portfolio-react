@@ -21,36 +21,35 @@ function ParallaxTest() {
                 shouldAlwaysCompleteAnimation: true,
                 expanded: false,
               },
-              // {
-              //   image: bg2,
-              //   translateY: [5, 45],
+              {
+                image: bg2,
+                translateY: [5, 45],
 
-              //   shouldAlwaysCompleteAnimation: true,
-              //   expanded: false,
-              // },
+                shouldAlwaysCompleteAnimation: true,
+                expanded: false,
+              },
               {
                 children: (
                   <div
                     style={{
                       color: "white",
-                      position: "fixed",
+                      position: "absolute",
                       top: "30%",
-                      left: "40%",
+                      left: "50%",
                       transform: "translate(-50%, -50%)",
                     }}
                   >
                     <h1
                       style={{
-                        fontSize: "60px",
+                        fontSize: "100px",
                       }}
                     >
-                      Nexrof </h1>
-                      <h2>Nexus revolution of future
-                    </h2>
+                      Nexrof
+                    </h1>
                   </div>
                 ),
                 // translateY: [15, 25],
-                translateY: [5, 45],
+                translateY: [10, 45],
                 shouldAlwaysCompleteAnimation: true,
                 expanded: false, //Set the amount to 0 to prevent any parallax effect on the text
               },

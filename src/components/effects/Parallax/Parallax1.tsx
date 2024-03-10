@@ -25,7 +25,7 @@ const Parallax1 = ({ image, children }: Props) => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <h1 className="text-center parallax">{children}</h1>
+      <h1 className="text-center parallax-static">{children}</h1>
     </div>
   );
 };
