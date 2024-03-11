@@ -1,5 +1,4 @@
 import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
-
 import bg1 from "/image/bg-1.png";
 import bg2 from "/image/bg-2.png";
 import bg3 from "/image/bg-3.png";
@@ -13,7 +12,7 @@ function ParallaxTest() {
     <>
       <NavBar></NavBar>
       <main>
-        <div className="row">
+        <div className="row ">
           <div className=" col-md order-md-1">
             <ParallaxProvider>
               <header>

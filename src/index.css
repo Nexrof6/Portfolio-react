@@ -140,3 +140,24 @@ main {
     transform: translate(0, -0px);
   }
 }
+
+.scroll-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.scroll-text {
+  position: absolute;
+  white-space: nowrap;
+  animation: scrollText 10s linear infinite;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
