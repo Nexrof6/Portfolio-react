@@ -116,8 +116,8 @@ main {
   padding: 0%;
   margin: 0;
   overflow: hidden;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(  #53657c, #1e3250,rgb(18, 18, 31));
+  /* background: rgb(2, 0, 36); */
+  background: linear-gradient(to right, #1904e5, #bae2e9);
   color: white;
 }
 

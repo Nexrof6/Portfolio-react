@@ -1,4 +1,5 @@
 import ParallaxMultiLayer from "../effects/Parallax/ParallaxMultiLayer";
+import Footer from "../templates/Footer";
 import NavBar from "../templates/NavBar";
 import AboutTest from "./AboutTest";
 
@@ -27,6 +28,7 @@ function Home() {
           <AboutTest></AboutTest>
         </div>
       </main>
+      <Footer></Footer>
     </>
   );
 }
