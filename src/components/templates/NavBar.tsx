@@ -31,7 +31,7 @@ function NavBar() {
           <ul className="navbar-nav justify-content-end ms-auto">
             <li className="nav-item ">
               <a className="nav-link active" aria-current="page" href="#">
-                <p className="h5">Home</p>
+                <p className="h6">Home</p>
               </a>
             </li>
             {/* <li className="nav-item ">
@@ -41,17 +41,17 @@ function NavBar() {
             </li> */}
             <li className="nav-item ">
               <a className="nav-link" href="#">
-                <p className="h5">Projects</p>
+                <p className="h6">Projects</p>
               </a>
             </li>
             <li className="nav-item ">
               <a className="nav-link" href="#">
-                <p className="h5">Blog</p>
+                <p className="h6">Blog</p>
               </a>
             </li>
             <li className="nav-item ">
               <a className="nav-link" href="#">
-                <p className="h5">Contact</p>
+                <p className="h6">Contact</p>
               </a>
             </li>
           </ul>

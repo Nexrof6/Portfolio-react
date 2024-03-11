@@ -1,27 +1,29 @@
 import ParallaxMultiLayer from "../effects/Parallax/ParallaxMultiLayer";
 import NavBar from "../templates/NavBar";
+import AboutTest from "./AboutTest";
 
 function Home() {
   return (
     <>
-      <NavBar></NavBar>
-      <main style={{ height: "300vh" }}>
+      <main>
+        <NavBar></NavBar>
         <div className="container">
           <ParallaxMultiLayer>
             <span
-              data-aos="fade-up"
-              data-aos-offset="200"
-              data-aos-delay="50"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="True"
-              data-aos-anchor-placement="top-center"
+            // data-aos="fade-up"
+            // data-aos-offset="200"
+            // data-aos-delay="50"
+            // data-aos-duration="1000"
+            // data-aos-easing="ease-in-out"
+            // data-aos-mirror="true"
+            // data-aos-once="True"
+            // data-aos-anchor-placement="top-center"
             >
               {" "}
               NEXUS REVOLUTION OF THE FUTURE
             </span>
           </ParallaxMultiLayer>{" "}
+          <AboutTest></AboutTest>
         </div>
       </main>
     </>

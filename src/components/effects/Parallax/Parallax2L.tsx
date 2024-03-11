@@ -24,7 +24,7 @@ const Parallax2L = ({ image, children }: Props) => {
           backgroundAttachment: "fixed",
           backgroundRepeat: "no-repeat",
           backgroundPosition: `${matches ? "left" : "center"}`,
-          backgroundSize: "55% 98%",
+          backgroundSize: "500px 500px",
         }}
       >
         <span className="parallax-static"></span>{" "}
