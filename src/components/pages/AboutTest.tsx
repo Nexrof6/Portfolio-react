@@ -38,14 +38,16 @@ function AboutTest() {
       <main>
         
         <Parallax2L image="image/sagar.jpg">
-        <span data-aos="fade-up-left" data-aos-once="true">NEXUS REVOLUTION OF THE FUTURE</span>
+        <span  data-aos="fade-up-left" >NEXUS REVOLUTION OF THE FUTURE</span>
         </Parallax2L>
         
         <div>
           <h1 className="text-center parallax h-75  p-5">“We don't just sell websites, we create websites that SELL.”</h1>
         </div>
         <Parallax2R image="image/dharshan.jpg">
-        <span data-aos="fade-up-right" data-aos-once="true">NEXUS REVOLUTION OF THE FUTURE</span>
+        <span data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" >NEXUS REVOLUTION OF THE FUTURE</span>
         </Parallax2R>
        
         <div>
@@ -53,14 +55,16 @@ function AboutTest() {
         </div>
 
         <Parallax2L image="image/ealil.jpg">
-        <span data-aos="fade-up-left" data-aos-once="true">NEXUS REVOLUTION OF THE FUTURE</span>
+        <span  data-aos="fade-up-left" >NEXUS REVOLUTION OF THE FUTURE</span>
         </Parallax2L>
         <div>
           <h1 className="text-center parallax h-75  p-5">“We don't just sell websites, we create websites that SELL.””</h1>
         </div>
 
         <Parallax2R image="image/devasri.jpg">
-        <span data-aos="fade-up-right" data-aos-once="true">NEXUS REVOLUTION OF THE FUTURE</span>
+        <span data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" >NEXUS REVOLUTION OF THE FUTURE</span>
         </Parallax2R>
         <div>
           <h1 className="text-center parallax h-75  p-5">“The true ENTREPRENEUR is a risk taker, not an excuse maker.”</h1>
