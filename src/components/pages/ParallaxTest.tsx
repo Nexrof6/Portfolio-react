@@ -4,7 +4,7 @@ import bg1 from "/image/bg-1.png";
 import bg2 from "/image/bg-2.png";
 import bg3 from "/image/bg-3.png";
 import bg4 from "/image/bg-4.png";
-// import bg5 from "/image/bg-5.png";
+import bg5 from "/image/bg-5.png";
 import "/src/index.css";
 import NavBar from "../templates/NavBar";
 console.log("bg1:", bg1);
@@ -36,12 +36,12 @@ function ParallaxTest() {
                               fontSize: "100px",
                             }}
                           >
-                            Nexrof
+                            NEXROF
                           </h1>
                         </div>
                       ),
                       // translateY: [15, 25],
-                      translateY: [10, 50],
+                      translateY: [10, 70],
                       shouldAlwaysCompleteAnimation: true,
                       expanded: false, //Set the amount to 0 to prevent any parallax effect on the text
                     },
@@ -52,16 +52,10 @@ function ParallaxTest() {
                       shouldAlwaysCompleteAnimation: true,
                       expanded: false,
                     },
-                    {
-                      image: bg2,
-                      translateY: [15, 35],
 
-                      shouldAlwaysCompleteAnimation: true,
-                      expanded: false,
-                    },
                     {
                       image: bg3,
-                      translateY: [-5, 20],
+                      translateY: [-5, 30],
 
                       shouldAlwaysCompleteAnimation: true,
                       expanded: false,
@@ -69,18 +63,25 @@ function ParallaxTest() {
 
                     {
                       image: bg4,
-                      translateY: [10, 20],
+                      translateY: [10, 25],
 
                       shouldAlwaysCompleteAnimation: true,
                       expanded: false,
                     },
-                    // {
-                    //   image: bg5,
-                    //   translateY: [0, -20],
+                    {
+                      image: bg5,
+                      translateY: [-5, 35],
 
-                    //   shouldAlwaysCompleteAnimation: true,
-                    //   expanded: false,
-                    // },
+                      shouldAlwaysCompleteAnimation: true,
+                      expanded: false,
+                    },
+                    {
+                      image: bg2,
+                      translateY: [15, 35],
+
+                      shouldAlwaysCompleteAnimation: true,
+                      expanded: false,
+                    },
                   ]}
                 />
               </header>
