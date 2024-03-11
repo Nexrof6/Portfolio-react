@@ -1,6 +1,10 @@
 // import { useState } from "react";
 
 import React from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 // import Parallax1 from "../effects/Parallax/Parallax1";
 // import Parallax1L from "../effects/Parallax/Parallax1L";
@@ -34,7 +38,8 @@ function AboutTest() {
       <main>
         
         <Parallax2L image="image/sagar.jpg">
-        <h1 className="slide-in-text-right">Right to Left Animation</h1>
+        <h1 className="slide-in-text-right" data-aos= "fade-right" data-aos-offset="300"
+     data-aos-easing="ease-in-sine">Right to Left Animation</h1>
         </Parallax2L>
         
         <div>

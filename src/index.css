@@ -27,6 +27,11 @@
 
 .slide-in-text-left {
   animation: slideInLeft 1.5s ease forwards;
+  
+}
+
+.ParallaxMultiLayer{
+  transition: 1s;
 }
 .glass {
   background: rgba(255, 255, 255, 0.11);
