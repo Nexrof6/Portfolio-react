@@ -10,14 +10,15 @@ function Home() {
         <div className="container">
           <ParallaxMultiLayer>
             <span
-            // data-aos="fade-up"
-            // data-aos-offset="200"
-            // data-aos-delay="50"
-            // data-aos-duration="1000"
-            // data-aos-easing="ease-in-out"
-            // data-aos-mirror="true"
-            // data-aos-once="True"
-            // data-aos-anchor-placement="top-center"
+              // data-aos="fade-up"
+              // data-aos-offset="200"
+              // data-aos-delay="50"
+              // data-aos-duration="1000"
+              // data-aos-easing="ease-in-out"
+              // data-aos-mirror="true"
+              // data-aos-once="True"
+              // data-aos-anchor-placement="top-center"
+              className="display-3"
             >
               {" "}
               NEXUS REVOLUTION OF THE FUTURE
