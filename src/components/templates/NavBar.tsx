@@ -2,8 +2,8 @@ function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiaryc p-3 fixed-top glass">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Nexrof
+        <a className="navbar-brand " href="#">
+          <h3 className="h3">Nexrof</h3>
         </a>
         <button
           className="navbar-toggler "
@@ -31,7 +31,7 @@ function NavBar() {
           <ul className="navbar-nav justify-content-end ms-auto">
             <li className="nav-item ">
               <a className="nav-link active" aria-current="page" href="#">
-                Home
+                <p className="h5">Home</p>
               </a>
             </li>
             {/* <li className="nav-item ">
@@ -41,17 +41,17 @@ function NavBar() {
             </li> */}
             <li className="nav-item ">
               <a className="nav-link" href="#">
-                Projects
+                <p className="h5">Projects</p>
               </a>
             </li>
             <li className="nav-item ">
               <a className="nav-link" href="#">
-                Blog
+                <p className="h5">Blog</p>
               </a>
             </li>
             <li className="nav-item ">
               <a className="nav-link" href="#">
-                Contact
+                <p className="h5">Contact</p>
               </a>
             </li>
           </ul>
