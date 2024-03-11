@@ -1,31 +1,37 @@
-import { ReactNode } from "react";
+import { ReactNode, useEffect, useState } from "react";
 
 interface Props {
   image: string;
   children: ReactNode;
 }
 const Parallax2R = ({ image, children }: Props) => {
+  const [matches, setMatches] = useState(
+    window.matchMedia("(min-width: 768px)").matches
+  );
+
+  useEffect(() => {
+    window
+      .matchMedia("(min-width: 768px)")
+      .addEventListener("change", (e) => setMatches(e.matches));
+  }, []);
+
   return (
     <div className="row">
-      
       <div
         className="col-md order-md-2 rounded"
         style={{
           backgroundImage: `url(${image})`,
           backgroundAttachment: "fixed",
           backgroundRepeat: "no-repeat",
-          backgroundPosition: "right",
+          backgroundPosition: `${matches ? "right" : "center"}`,
           backgroundSize: "55% 80%",
         }}
-        
       >
         <span className="parallax-static"></span>
       </div>
       <div className="col">
         <h1 className="text-center parallax-static">{children}</h1>
-        
       </div>
-      
     </div>
   );
 };

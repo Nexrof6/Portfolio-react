@@ -94,7 +94,6 @@ function ParallaxMultiLayer({ children }: Props) {
           </h1>
         </div>
       </div>
-      <div className="parallax"></div>
     </>
   );
 }
