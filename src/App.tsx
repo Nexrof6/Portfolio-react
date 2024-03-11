@@ -4,7 +4,16 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.js";
 import ParallaxTest from "./components/pages/ParallaxTest.js";
 import AboutTest from "./components/pages/AboutTest.tsx";
+
+import "aos/dist/aos.css";
+import AOS from "aos";
+import { useEffect } from "react";
+
 function App() {
+  useEffect(() => {
+    AOS.init({});
+  }, []);
+
   return (
     <BrowserRouter>
       <Routes>

@@ -8,9 +8,9 @@ function Home() {
       <main>
         <div className="container">
           <ParallaxMultiLayer>
-            {" "}
-            NEXUS REVOLUTION OF THE FUTURE
-          </ParallaxMultiLayer>
+            <span data-aos="fade-right">NEXUS REVOLUTION OF THE FUTURE</span>
+          </ParallaxMultiLayer>{" "}
+          <div>Test Message</div>
         </div>
       </main>
     </>

@@ -6,7 +6,7 @@ import bg4 from "/image/bg-4.png";
 import bg5 from "/image/bg-5.png";
 import "/src/index.css";
 import NavBar from "../templates/NavBar";
-console.log("bg1:", bg1);
+
 function ParallaxTest() {
   return (
     <>
