@@ -16,7 +16,7 @@ function AboutTest() {
     <>
       <div>
         <Parallax2L image="image/sagar.jpg">
-          <div>
+          <div className="glass p-5">
             <div
               data-aos="fade-left"
               data-aos-offset="300"
@@ -59,7 +59,7 @@ function AboutTest() {
         <div style={{ height: `${matches ? "40vh" : "5vh"}` }}></div>
 
         <Parallax2R image="image/dharshan.jpg">
-          <div>
+          <div className="glass p-5">
             <div
               data-aos="fade-right"
               data-aos-offset="300"
@@ -102,7 +102,7 @@ function AboutTest() {
         <div style={{ height: `${matches ? "40vh" : "5vh"}` }}></div>
 
         <Parallax2L image="image/ealil.jpg">
-          <div>
+          <div className="glass p-5">
             <div
               data-aos="fade-left"
               data-aos-offset="300"
@@ -145,7 +145,7 @@ function AboutTest() {
         <div style={{ height: `${matches ? "40vh" : "5vh"}` }}></div>
 
         <Parallax2R image="image/devasri.jpg">
-          <div>
+          <div className="glass p-5">
             <div
               data-aos="fade-right"
               data-aos-offset="300"
