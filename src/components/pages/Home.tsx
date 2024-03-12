@@ -22,14 +22,41 @@ function Home() {
               NEXUS REVOLUTION OF THE FUTURE
             </span>
           </ParallaxMultiLayer>
-          <div>
-            <p className="content">
-              We at Nexrof are proficient developers <br></br> who create
-              Innovative <span className="text-success">Web and APP </span>
-              Solutions to give life to your ideas .<br></br>Crafting Code and
-              making dreams a reality is our main
-            </p>
+          <div className="row">
+            <div className="col-md">
+              <div className="row">
+                {" "}
+                <p className="content">
+                  What do we do? <br></br> <br></br>We at Nexrof are proficient
+                  developers who create Innovative Web and APP Solutions to give
+                  life to your ideas .Crafting Code and making dreams a reality
+                  is our main motto .
+                </p>
+              </div>
+              <div className="row">
+                <p className="content">
+                  Why chose us ?<br></br> <br></br>Encryption and Quality are
+                  our top most priorities. Also Our partnership does not end
+                  once the project is over. We make updates, fix bugs and
+                  upgrade it whenever you want us to . Your project is in
+                  excellent hands when it is with us.
+                </p>
+              </div>
+            </div>
+            <div className="col d-flex justify-content-center align-items-center">
+              <img
+                src="/image/img-1.png"
+                className="img-thumbnail"
+                style={{
+                  backgroundColor: "transparent",
+                  border: "none",
+                  boxShadow: "none",
+                }}
+                alt=""
+              />
+            </div>
           </div>
+
           <AboutTest></AboutTest>
         </div>
       </main>
