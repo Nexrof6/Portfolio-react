@@ -5,6 +5,8 @@ interface Props {
   children: ReactNode;
 }
 const Parallax2L = ({ image, children }: Props) => {
+  //To make the Website Responsive
+  //matches will be true if the screen size is above 768px
   const [matches, setMatches] = useState(
     window.matchMedia("(min-width: 768px)").matches
   );

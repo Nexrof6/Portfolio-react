@@ -14,7 +14,7 @@ interface Props {
 function ParallaxMultiLayer({ children }: Props) {
   return (
     <>
-      <div className="row ">
+      <div className="row mb-5">
         <div className=" col-md order-md-1">
           <ParallaxProvider>
             <header>
@@ -34,7 +34,7 @@ function ParallaxMultiLayer({ children }: Props) {
                       >
                         <h1
                           style={{
-                            fontSize: "100px",
+                            fontSize: "500%",
                           }}
                         >
                           NEXROF

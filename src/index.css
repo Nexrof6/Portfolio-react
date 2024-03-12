@@ -40,6 +40,8 @@
   -webkit-backdrop-filter: blur(14.5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
+.glass-green {
+}
 
 @keyframes slideInRight {
   0% {
@@ -117,7 +119,28 @@ main {
   margin: 0;
   overflow: hidden;
   /* background: rgb(2, 0, 36); */
-  background: linear-gradient(to bottom, #acc0fe, #4b086d);
+
+  /*background: linear-gradient(to bottom, #6510c7, #416beb); */
+
+  /* background: linear-gradient(to bottom, #416beb, #8a10c7); */
+
+  /* background-color: #2f3c7e; */
+
+  /* background-color: #735da5; */
+
+  background-color: black;
+
+  /* background-color: #310e68;
+  background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%); */
+
+  /* background-color: #663dff;
+  background-image: linear-gradient(
+    319deg,
+    #663dff 0%,
+    #aa00ff 37%,
+    #cc4499 100%
+  ); */
+
   color: white;
 }
 
@@ -138,4 +161,9 @@ main {
   100% {
     transform: translate(0, -0px);
   }
+}
+
+.content {
+  font-size: 25px;
+  font-family: "Helvetica Neue", Helvetica, Arial, and sans-serif;
 }
