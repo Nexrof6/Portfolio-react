@@ -1,6 +1,8 @@
 import insta from "/image/insta.png";
 import linkedin from "/image/linkedin.png";
 import github from "/image/github.png";
+import facebook from "/image/facebook.png";
+import x from "/image/x.png";
 
 function Footer() {
   return (
@@ -10,8 +12,32 @@ function Footer() {
         <div className="container p-4 pb-0">
           <section className="mb-4">
             <h3>Contact us on :</h3>
-            {/* the below code is for insta img */}
 
+            {/* the below code is for Facebook img */}
+            <a
+              data-mdb-ripple-init
+              className="btn text-white btn-floating m-1"
+              style={{ backgroundColor: "#ffffff" }}
+              href="https://www.facebook.com/share/SDUv9vhgHKJBaGd1/?mibextid=qi2Omg"
+              role="button"
+            >
+              <img src={facebook} width={40} height={40} />
+              {/* //img content rendering */}
+            </a>
+
+            {/* the below code is for X img */}
+            <a
+              data-mdb-ripple-init
+              className="btn text-white btn-floating m-1"
+              style={{ backgroundColor: "#ffffff" }}
+              href="https://x.com/Nexrof6?t=k7pykzN59FZgzFpCDnenUQ&s=09"
+              role="button"
+            >
+              <img src={x} width={40} height={40} />
+              {/* //img content rendering */}
+            </a>
+
+            {/* the below code is for insta img */}
             <a
               data-mdb-ripple-init
               className="btn text-white btn-floating m-1"
@@ -23,6 +49,7 @@ function Footer() {
               {/* //img content rendering */}
             </a>
 
+            {/* the below code is for linkedin img */}
             <a
               data-mdb-ripple-init
               className="btn text-white btn-floating m-1"
@@ -34,6 +61,7 @@ function Footer() {
               {/* //img content rendering */}
             </a>
 
+            {/* the below code is for github img */}
             <a
               data-mdb-ripple-init
               className="btn text-white btn-floating m-1"
