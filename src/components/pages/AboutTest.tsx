@@ -27,26 +27,43 @@ function AboutTest() {
               Developer at Nexrof
             </div>
             <div>
-              <img
-                width="50"
-                height="50"
-                src="https://img.icons8.com/3d-fluency/94/instagram-new.png"
-                alt="instagram-new"
-              />
-              <img
-                width="50"
-                height="50"
-                src="https://img.icons8.com/3d-fluency/94/linkedin.png"
-                alt="linkedin"
-              />
+              <a
+                href="https://www.instagram.com/sanjaysagar._?igsh=MXZldzJ0cGx2a3hzaQ=="
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  width="50"
+                  height="50"
+                  src="https://img.icons8.com/3d-fluency/94/instagram-new.png"
+                  alt="instagram-new"
+                />
+              </a>
 
-              <img
-                width="50"
-                height="50"
-                src="https://img.icons8.com/3d-fluency/188/github.png"
-                alt="github"
-              />
-
+              <a
+                href="https://www.linkedin.com/in/sanjay-sagar-5263b82a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  width="50"
+                  height="50"
+                  src="https://img.icons8.com/3d-fluency/94/linkedin.png"
+                  alt="linkedin"
+                />
+              </a>
+              <a
+                href="https://github.com/sanjaysagar12"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  width="50"
+                  height="50"
+                  src="https://img.icons8.com/3d-fluency/188/github.png"
+                  alt="github"
+                />
+              </a>
               <img
                 width="50"
                 height="50"
@@ -70,25 +87,44 @@ function AboutTest() {
               Developer at Nexrof
             </div>
             <div>
-              <img
-                width="50"
-                height="50"
-                src="https://img.icons8.com/3d-fluency/94/instagram-new.png"
-                alt="instagram-new"
-              />
-              <img
-                width="50"
-                height="50"
-                src="https://img.icons8.com/3d-fluency/94/linkedin.png"
-                alt="linkedin"
-              />
+              <a
+                href="https://www.instagram.com/_.jd__21.__?igsh=MXBqNHNmeHcwbGFqOA=="
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  width="50"
+                  height="50"
+                  src="https://img.icons8.com/3d-fluency/94/instagram-new.png"
+                  alt="instagram-new"
+                />
+              </a>
 
-              <img
-                width="50"
-                height="50"
-                src="https://img.icons8.com/3d-fluency/188/github.png"
-                alt="github"
-              />
+              <a
+                href="https://www.linkedin.com/in/j-dharshan-kumar-02988a276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  width="50"
+                  height="50"
+                  src="https://img.icons8.com/3d-fluency/94/linkedin.png"
+                  alt="linkedin"
+                />
+              </a>
+
+              <a
+                href="https://github.com/dharshan-kumarj"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  width="50"
+                  height="50"
+                  src="https://img.icons8.com/3d-fluency/188/github.png"
+                  alt="github"
+                />
+              </a>
 
               <img
                 width="50"
@@ -113,25 +149,44 @@ function AboutTest() {
               Developer at Nexrof
             </div>
             <div>
-              <img
-                width="50"
-                height="50"
-                src="https://img.icons8.com/3d-fluency/94/instagram-new.png"
-                alt="instagram-new"
-              />
-              <img
-                width="50"
-                height="50"
-                src="https://img.icons8.com/3d-fluency/94/linkedin.png"
-                alt="linkedin"
-              />
+              <a
+                href="https://www.instagram.com/_.mr_17.__?igsh=MTZqaGQwdjBoajFvaQ=="
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  width="50"
+                  height="50"
+                  src="https://img.icons8.com/3d-fluency/94/instagram-new.png"
+                  alt="instagram-new"
+                />
+              </a>
 
-              <img
-                width="50"
-                height="50"
-                src="https://img.icons8.com/3d-fluency/188/github.png"
-                alt="github"
-              />
+              <a
+                href="https://www.linkedin.com/in/ealil-adavan-51722429b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  width="50"
+                  height="50"
+                  src="https://img.icons8.com/3d-fluency/94/linkedin.png"
+                  alt="linkedin"
+                />
+              </a>
+
+              <a
+                href="https://github.com/ealil-17"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  width="50"
+                  height="50"
+                  src="https://img.icons8.com/3d-fluency/188/github.png"
+                  alt="github"
+                />
+              </a>
 
               <img
                 width="50"
@@ -156,25 +211,44 @@ function AboutTest() {
               at Nexrof
             </div>
             <div>
-              <img
-                width="50"
-                height="50"
-                src="https://img.icons8.com/3d-fluency/94/instagram-new.png"
-                alt="instagram-new"
-              />
-              <img
-                width="50"
-                height="50"
-                src="https://img.icons8.com/3d-fluency/94/linkedin.png"
-                alt="linkedin"
-              />
+              <a
+                href="https://www.instagram.com/_devasriii._?igsh=djVvaDNteDVzNWk3"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  width="50"
+                  height="50"
+                  src="https://img.icons8.com/3d-fluency/94/instagram-new.png"
+                  alt="instagram-new"
+                />
+              </a>
 
-              <img
-                width="50"
-                height="50"
-                src="https://img.icons8.com/3d-fluency/188/github.png"
-                alt="github"
-              />
+              <a
+                href="https://www.linkedin.com/in/devasri-s-p-392b852a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  width="50"
+                  height="50"
+                  src="https://img.icons8.com/3d-fluency/94/linkedin.png"
+                  alt="linkedin"
+                />
+              </a>
+
+              <a
+                href="https://github.com/Devasri06"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  width="50"
+                  height="50"
+                  src="https://img.icons8.com/3d-fluency/188/github.png"
+                  alt="github"
+                />
+              </a>
 
               <img
                 width="50"
