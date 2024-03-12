@@ -26,20 +26,25 @@ function Home() {
             <div className="col-md">
               <div className="row">
                 {" "}
-                <p className="content">
-                  What do we do? <br></br> <br></br>We at Nexrof are proficient
-                  developers who create Innovative Web and APP Solutions to give
-                  life to your ideas .Crafting Code and making dreams a reality
-                  is our main motto .
+                <h1 style={{ color: "green" }}>
+                  What do we do?
+                </h1> <br></br> <br></br>
+                <p className="content p2">
+                  We at Nexrof are proficient developers who create Innovative
+                  Web and APP Solutions to give life to your ideas.Crafting Code
+                  and making dreams a reality is our main motto
                 </p>
               </div>
               <div className="row">
-                <p className="content">
-                  Why chose us ?<br></br> <br></br>Encryption and Quality are
-                  our top most priorities. Also Our partnership does not end
-                  once the project is over. We make updates, fix bugs and
-                  upgrade it whenever you want us to . Your project is in
-                  excellent hands when it is with us.
+                <p className="content p3" style={{ color: "green" }}>
+                  Why choose us ?<p />
+                </p>
+                <br></br> <br></br>
+                <p className="content p4">
+                  Encryption and Quality are our top most priorities.Also Our
+                  partnership does not end once the project is over.We make
+                  updates,fix bugs and upgrade it whenever you want us to.Your
+                  project is in excellent hands when it is with us.
                 </p>
               </div>
             </div>
