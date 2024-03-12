@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.js";
 import ParallaxTest from "./components/pages/ParallaxTest.js";
 import AboutTest from "./components/pages/AboutTest.tsx";
+import ServiceTest from "./components/pages/ServiceTest.tsx";
 
 import "aos/dist/aos.css";
 import AOS from "aos";
@@ -21,10 +22,10 @@ function App() {
         <Route path="/test" element={<Test />} />
         <Route path="/parallax" element={<ParallaxTest />} />
         <Route path="/about" element={<AboutTest />} />
+        <Route path="/service" element={<ServiceTest />} />
       </Routes>
     </BrowserRouter>
   );
 }
-
 
 export default App;
