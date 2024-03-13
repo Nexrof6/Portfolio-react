@@ -2,6 +2,8 @@ import ParallaxMultiLayer from "../effects/Parallax/ParallaxMultiLayer";
 import Footer from "../templates/Footer";
 import NavBar from "../templates/NavBar";
 import AboutTest from "./AboutTest";
+import ServiceTest from "./ServiceTest";
+import Contact from "./Contact";
 
 function Home() {
   return (
@@ -26,7 +28,7 @@ function Home() {
             <div className="col-md">
               <div className="row">
                 {" "}
-                <h1 style={{ color: "green"  }}>
+                <h1 style={{ color: "green" }}>
                   What do we do?
                 </h1> <br></br> <br></br>
                 <p className="content p2">
@@ -36,11 +38,9 @@ function Home() {
                 </p>
               </div>
               <br></br>
-              <br></br> 
+              <br></br>
               <div className="row">
-              <h1 style={{ color: "green" }}>
-                  Why choose us?
-                </h1>
+                <h1 style={{ color: "green" }}>Why choose us?</h1>
                 <br></br> <br></br>
                 <p className="content p4">
                   Encryption and Quality are our top most priorities.Also Our
@@ -64,11 +64,24 @@ function Home() {
             </div>
           </div>
           <br></br>
-          <h1 style={{ color: "purple" }}>
-                 MEET THE TEAM
-                </h1>
-            <br></br>
+          <h1 style={{ color: "purple" }}>MEET THE TEAM</h1>
+          <br></br>
           <AboutTest></AboutTest>
+          <ServiceTest></ServiceTest>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <div className="container text-center">
+            <p className="content p5 fs-1">Contact Us:</p>
+
+            <p className="content p6">
+              Just give Your Email ID and give a short note on the Message box
+              <br></br>We will reach you As soon as possible!!
+            </p>
+          </div>
+          <br></br>
+          <Contact></Contact>
         </div>
       </main>
       <Footer></Footer>

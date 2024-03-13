@@ -21,7 +21,7 @@ function Contact() {
               action="https://nexrof.selfmade.technology/nexrof"
               method="get"
             >
-              <h1 className="h3 mb-3 fw-normal">Contcact Us</h1>
+              <h1 className="h3 mb-3 fw-normal">Contact Us</h1>
 
               <div className="form-floating">
                 <input

@@ -5,7 +5,7 @@ function Footer() {
       <footer className="bg-body-tertiary text-center">
         <div className="container p-4 pb-0">
           <section className="mb-4">
-            <h3>Contact us on :</h3>
+            <h3>Connect with us on :</h3>
 
             {/* the below code is for Facebook img */}
             <a
