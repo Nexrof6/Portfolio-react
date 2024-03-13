@@ -40,8 +40,8 @@
   -webkit-backdrop-filter: blur(14.5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
-.glass-green {
-}
+/* .glass-green {
+} */
 
 @keyframes slideInRight {
   0% {
@@ -168,12 +168,31 @@ main {
   font-family: "Helvetica Neue", Helvetica, Arial, and sans-serif;
 }
 
-.p5{
+.p5 {
   color: green;
 }
-.p3{
+.p3 {
   color: green;
   font-size: 20px;
 }
 
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
 
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

@@ -14,7 +14,7 @@ function AboutTest() {
   }, []);
   return (
     <>
-      <div>
+      <div id="About">
         <Parallax2L image="image/sagar.jpg">
           <div className="glass p-5">
             <div

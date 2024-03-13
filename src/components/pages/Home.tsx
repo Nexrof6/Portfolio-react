@@ -26,7 +26,7 @@ function Home() {
             <div className="col-md">
               <div className="row">
                 {" "}
-                <h1 style={{ color: "green" }}>
+                <h1 style={{ color: "green"  }}>
                   What do we do?
                 </h1> <br></br> <br></br>
                 <p className="content p2">
@@ -35,10 +35,12 @@ function Home() {
                   and making dreams a reality is our main motto
                 </p>
               </div>
+              <br></br>
+              <br></br> 
               <div className="row">
-                <p className="content p3" style={{ color: "green" }}>
-                  Why choose us ?<p />
-                </p>
+              <h1 style={{ color: "green" }}>
+                  Why choose us?
+                </h1>
                 <br></br> <br></br>
                 <p className="content p4">
                   Encryption and Quality are our top most priorities.Also Our
@@ -61,7 +63,11 @@ function Home() {
               />
             </div>
           </div>
-
+          <br></br>
+          <h1 style={{ color: "purple" }}>
+                 MEET THE TEAM
+                </h1>
+            <br></br>
           <AboutTest></AboutTest>
         </div>
       </main>

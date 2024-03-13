@@ -40,17 +40,17 @@ function NavBar() {
               </a>
             </li> */}
             <li className="nav-item ">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/#About">
                 <p className="h6 text-light ">About</p>
               </a>
             </li>
             <li className="nav-item ">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/service">
                 <p className="h6 text-light ">Services</p>
               </a>
             </li>
             <li className="nav-item ">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="contact">
                 <p className="h6 text-light ">Contact</p>
               </a>
             </li>
