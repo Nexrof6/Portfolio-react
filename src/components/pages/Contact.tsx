@@ -39,7 +39,8 @@ function Contact() {
             </div>
             <div className="col-md"></div>
             <div className="col-md-4 bg-dark banner d-none d-md-block">
-              <div className="row mt-5 ms-5">
+              <h4 className="ms-5 mt-4 ">Contact info</h4>
+              <div className="row mt-4 ms-5">
                 <p>+91 7010157368</p>
               </div>
               <div className="row ms-5">
