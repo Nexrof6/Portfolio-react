@@ -63,7 +63,14 @@ function Home() {
             </div>
           </div>
           <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
           <h1 style={{ color: "purple" }}>MEET THE TEAM</h1>
+          <br></br>
+          <br></br>
+          <br></br>
           <br></br>
           <AboutTest></AboutTest>
           <ServiceTest></ServiceTest>

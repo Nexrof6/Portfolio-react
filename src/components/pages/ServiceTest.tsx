@@ -82,7 +82,6 @@ function ServiceTest() {
                     className="rounded rounded mx-auto d-block "
                   />
                   <br></br>
-                  <br></br>
 
                   <p className="content p5 text-centre fw-bolder  ">
                     API Development
