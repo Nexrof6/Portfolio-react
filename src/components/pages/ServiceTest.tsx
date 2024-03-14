@@ -29,7 +29,7 @@ function ServiceTest() {
             {/* this is for web development content */}
             <div className="container glass ">
               <div className="row ">
-                <div className="col pt-4  ">
+                <div className="col-md pt-4  ">
                   <img
                     src={www}
                     width={50}
@@ -50,7 +50,7 @@ function ServiceTest() {
                 </div>
                 {/* this is for app development content */}
 
-                <div className=" col pt-4  ">
+                <div className=" col-md pt-4  ">
                   <img
                     src={appdev}
                     width={50}
@@ -74,7 +74,7 @@ function ServiceTest() {
               <div className="row">
                 <div className="col"></div>
 
-                <div className="container p-4 col">
+                <div className="container p-4 col-md">
                   <img
                     src={api}
                     width={50}
@@ -107,7 +107,7 @@ function ServiceTest() {
             <div className="container">
               <div className="row">
                 {/* this is for frontend development content */}
-                <div className=" glass col pt-4 ">
+                <div className=" glass col-md pt-4 ">
                   <img
                     src={frontend}
                     width={50}
@@ -126,7 +126,7 @@ function ServiceTest() {
                   </p>
                 </div>
                 {/* this is for backend development content */}
-                <div className="glass col pt-4 ">
+                <div className="glass col-md pt-4 ">
                   <img
                     src={backend}
                     width={50}
@@ -146,7 +146,7 @@ function ServiceTest() {
                   </p>
                 </div>
                 {/* this is for quality content */}
-                <div className="glass col pt-4 ">
+                <div className="glass col-md pt-4 ">
                   <img
                     src={quality}
                     width={50}
@@ -168,7 +168,7 @@ function ServiceTest() {
                 <div className="container">
                   <div className="row">
                     {/* this is for encryption development content */}
-                    <div className="glass col pt-4 ">
+                    <div className="glass col-md pt-4 ">
                       <img
                         src={encryption}
                         width={50}
@@ -188,7 +188,7 @@ function ServiceTest() {
                       </p>
                     </div>
                     {/* this is for lowcode development content */}
-                    <div className="glass col pt-4 ">
+                    <div className="glass col-md pt-4 ">
                       <img
                         src={lowcode}
                         width={50}
@@ -208,7 +208,7 @@ function ServiceTest() {
                       </p>
                     </div>
                     {/* this is for cloud content */}
-                    <div className="glass col pt-4 ">
+                    <div className="glass col-md pt-4 ">
                       <img
                         src={cloud}
                         width={50}
