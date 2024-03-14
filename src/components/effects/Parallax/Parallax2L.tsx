@@ -18,7 +18,7 @@ const Parallax2L = ({ image, children }: Props) => {
   }, []);
 
   return (
-    <div className="row  ">
+    <div className="row ">
       <div
         className="col-md img-founders"
         style={{
