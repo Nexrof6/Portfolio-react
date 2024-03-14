@@ -3,9 +3,9 @@ function Contact() {
   return (
     <>
       <main>
-        <div className="container mt-5 pb-5 pt-5 bg-light rounded">
-          <div className="row">
-            <div className="col-md-6  ps-5">
+        <div className="  mt-5 pb-3 mb-5 pt-5 bg-light rounded container box-shadow">
+          <div className="row ">
+            <div className="col-md-6  container p-4 ">
               <h1 className="h2 mb-3 text-dark">Contact Us</h1>
               <h6 className="text-dark pt-1">NEXUS REVOLUTION OF THE FUTURE</h6>
               <div className="form-signin ">
@@ -14,17 +14,28 @@ function Contact() {
                   method="get"
                 >
                   <div className="">
+                    <input type="text" placeholder="Name *" name="name"></input>
+                  </div>
+
+                  <div className="">
                     <input
                       type="email"
-                      placeholder="Email"
+                      placeholder="Email *"
                       name="email"
                     ></input>
                   </div>
                   <div className="">
                     <input
                       type="text"
-                      placeholder="Message"
+                      placeholder="Message *"
                       name="body"
+                    ></input>
+                  </div>
+                  <div className="">
+                    <input
+                      type="text"
+                      placeholder="Phone Number"
+                      name="phone"
                     ></input>
                   </div>
 

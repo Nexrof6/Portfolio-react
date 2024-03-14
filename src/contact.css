@@ -29,3 +29,10 @@ html {
   border-bottom-left-radius: 10px;
   height: auto;
 }
+
+.box-shadow {
+  box-shadow: 12px 12px 20px 1px #cccc;
+}
+button {
+  background: linear-gradient(to top right, #06db3c -5%, #114d05 100%);
+}
