@@ -3,7 +3,6 @@ import Footer from "../templates/Footer";
 import NavBar from "../templates/NavBar";
 import AboutTest from "./AboutTest";
 import ServiceTest from "./ServiceTest";
-import Contact from "./Contact";
 
 function Home() {
   return (
@@ -72,16 +71,6 @@ function Home() {
           <br></br>
           <br></br>
           <br></br>
-          <div className="container text-center">
-            <p className="content p5 fs-1">Contact Us:</p>
-
-            <p className="content p6">
-              Just give Your Email ID and give a short note on the Message box
-              <br></br>We will reach you As soon as possible!!
-            </p>
-          </div>
-          <br></br>
-          <Contact></Contact>
         </div>
       </main>
       <Footer></Footer>

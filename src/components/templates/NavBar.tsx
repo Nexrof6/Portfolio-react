@@ -45,7 +45,7 @@ function NavBar() {
               </a>
             </li>
             <li className="nav-item ">
-              <a className="nav-link" href="/service">
+              <a className="nav-link" href="/#service">
                 <p className="h6 text-light ">Services</p>
               </a>
             </li>
