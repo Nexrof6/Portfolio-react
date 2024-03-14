@@ -35,7 +35,7 @@ function Contact() {
                       className="bg-light"
                       type="text"
                       placeholder="Message *"
-                      name="body"
+                      name="message"
                     ></input>
                   </div>
                   <div className="">
@@ -48,7 +48,7 @@ function Contact() {
                   </div>
 
                   <button
-                    className="btn btn-primary w-100 py-2 rounded-pill"
+                    className="btn btn-primary w-100 py-2 rounded-pill clr-green"
                     type="submit"
                   >
                     Send
@@ -57,7 +57,7 @@ function Contact() {
               </div>
             </div>
             <div className="col-md"></div>
-            <div className="col-md-4 bg-dark banner d-none d-md-block">
+            <div className="col-md-4 bg-dark banner-contact d-none d-md-block">
               <h4 className="ms-5 mt-4 ">Contact info</h4>
               <div className="row mt-4 ms-5">
                 <p>+91 7010157368</p>

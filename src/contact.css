@@ -24,7 +24,7 @@ html {
   background-color: black;
 }
 
-.banner {
+.banner-contact {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   height: auto;
@@ -33,6 +33,6 @@ html {
 .box-shadow {
   box-shadow: 12px 12px 20px 1px #cccc;
 }
-button {
+.clr-green {
   background: linear-gradient(to top right, #06db3c -5%, #114d05 100%);
 }
