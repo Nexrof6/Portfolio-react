@@ -14,11 +14,17 @@ function Contact() {
                   method="get"
                 >
                   <div className="">
-                    <input type="text" placeholder="Name *" name="name"></input>
+                    <input
+                      className="bg-light"
+                      type="text"
+                      placeholder="Name *"
+                      name="name"
+                    ></input>
                   </div>
 
                   <div className="">
                     <input
+                      className="bg-light"
                       type="email"
                       placeholder="Email *"
                       name="email"
@@ -26,6 +32,7 @@ function Contact() {
                   </div>
                   <div className="">
                     <input
+                      className="bg-light"
                       type="text"
                       placeholder="Message *"
                       name="body"
@@ -33,6 +40,7 @@ function Contact() {
                   </div>
                   <div className="">
                     <input
+                      className="bg-light"
                       type="text"
                       placeholder="Phone Number"
                       name="phone"
