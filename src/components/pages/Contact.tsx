@@ -14,7 +14,7 @@ function Contact() {
               <div className="form-signin ">
                 <form
                   action="https://nexrof.selfmade.technology/nexrof"
-                  method="get"
+                  method="post"
                 >
                   <div className="">
                     <input
