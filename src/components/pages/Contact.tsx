@@ -1,9 +1,13 @@
 import "/src/contact.css";
+import NavBar from "../templates/NavBar";
+import headphones from "/image/headphones.svg";
+import mail from "/image/mail.svg";
 function Contact() {
   return (
     <>
+      <NavBar></NavBar>
       <main>
-        <div className="  mt-5 pb-3 mb-5 pt-5 bg-light rounded container box-shadow">
+        <div className="  mt-5 pb-3 mb-5 pt-5 bg-light rounded container box-shadow mt-8">
           <div className="row ">
             <div className="col-md-6  container p-4 ">
               <h1 className="h2 mb-3 text-dark">Contact Us</h1>
@@ -58,12 +62,38 @@ function Contact() {
             </div>
             <div className="col-md"></div>
             <div className="col-md-4 bg-dark banner-contact d-none d-md-block">
-              <h4 className="ms-5 mt-4 ">Contact info</h4>
-              <div className="row mt-4 ms-5">
-                <p>+91 7010157368</p>
+              <h4 className=" ms-5 mt-4 ">Contact info</h4>
+              <div className="container ">
+                <div className="row ">
+                  <div className="col-md pt-4">
+                    <img
+                      src={headphones}
+                      width={50}
+                      height={50}
+                      className="rounded mx-auto d-block"
+                    />
+                    <div className="col pt-3">
+                      <p className="text-center">+91 7010157368</p>
+                      <p className="text-center">+91 7904826830</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className="row ms-5">
-                <p>nexrof6@gmail.com</p>
+
+              <div className="container ">
+                <div className="row ">
+                  <div className="col-md pt-4">
+                    <img
+                      src={mail}
+                      width={50}
+                      height={50}
+                      className="rounded mx-auto d-block"
+                    />
+                    <div className="col pt-3">
+                      <p className="text-center">nexrof6@gmail.com</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
