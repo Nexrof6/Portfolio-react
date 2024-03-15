@@ -1,7 +1,6 @@
 import "/src/contact.css";
 import NavBar from "../templates/NavBar";
-import headphones from "/image/headphones.svg";
-import mail from "/image/mail.svg";
+
 function Contact() {
   return (
     <>

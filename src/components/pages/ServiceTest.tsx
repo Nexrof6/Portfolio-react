@@ -45,9 +45,9 @@ function ServiceTest() {
                     Website Development
                   </p>
                   <p className="content p6 text-start">
-                    A well-designed website is a powerful marketing and<br></br>
-                    communication tool that helps build trust<br></br> and
-                    generate leads.
+                    Experience the Web Design Revolution here at Nexrof.
+                    <br></br>We provide quality UI/ UX <br></br>to make
+                    exceptional Websites.
                   </p>
                 </div>
                 {/* this is for app development content */}
@@ -66,9 +66,9 @@ function ServiceTest() {
                     Mobile App Development
                   </p>
                   <p className="content p6 text-end">
-                    Web applications can reach a global audience.<br></br>
-                    They're interactive and engaging, <br></br>so can easily
-                    hold users' attention.
+                    We bridge the Gap Between Ideas and Reality <br></br>by
+                    bringing ideas to life by our application.<br></br>Your
+                    vision is in right hands when they are in our hands.
                   </p>{" "}
                 </div>
               </div>
@@ -89,9 +89,8 @@ function ServiceTest() {
                     API Development
                   </p>
                   <p className="content p6 text-centre">
-                    A well-designed website is a powerful marketing and
-                    communication tool that helps build trust and generate
-                    leads.
+                    We build APIs that allow different software components to
+                    communicate. Our APIs are powerful, resilient, and secure .
                   </p>
                 </div>
                 <div className="col"></div>
@@ -121,10 +120,10 @@ function ServiceTest() {
                   <p className="content p5 text-centre fw-bolder">
                     FrontEnd Development
                   </p>
-                  <p className="content p3 text-centre">
-                    A well-designed website is a powerful marketing and
-                    communication tool that helps build trust and generate
-                    leads.
+                  <p className="content p3 text-centre p8">
+                    We focus on enhancing user experiences through intuitive
+                    designs and seamless interactions and specialize in creating
+                    responsive and visually appealing user interfaces
                   </p>
                 </div>
                 {/* this is for backend development content */}
@@ -141,10 +140,10 @@ function ServiceTest() {
                   <p className="content p5 text-centre fw-bolder">
                     BackEnd Development
                   </p>
-                  <p className="content p3 text-centre">
-                    A well-designed website is a powerful marketing and
-                    communication tool that helps build trust and generate
-                    leads.
+                  <p className="content p3 text-centre p8">
+                    We at Nexrof are good at optimizing server performance,
+                    managing databases and server side logics and build
+                    efficient back end systems
                   </p>
                 </div>
                 {/* this is for quality content */}
@@ -161,10 +160,10 @@ function ServiceTest() {
                   <p className="content p5 text-centre fw-bolder">
                     Quality Assurance
                   </p>
-                  <p className="content p3 text-centre">
+                  <p className="content p3 text-centre p8">
                     We understand your expectations.Quality is also our top
                     priority .you will always receive top-notch results that
-                    satisfies your requirements and objectives .
+                    satisfies your requirements and objectives.
                   </p>
                 </div>
                 <div className="container">
@@ -182,7 +181,7 @@ function ServiceTest() {
                       <p className="content p5 text-centre fw-bolder">
                         Encryption
                       </p>
-                      <p className="content p3 text-centre">
+                      <p className="content p3 text-centre p8">
                         With the security of your online presence as our
                         priority, you can safeguard your valuable data and build
                         trust with your customers.Trust is the foundation of
@@ -203,10 +202,11 @@ function ServiceTest() {
                       <p className="content p5 text-centre fw-bolder">
                         Lowcode Development
                       </p>
-                      <p className="content p3 text-centre">
-                        We also specialize in building no-code and low-code web
-                        solutions that allow clients to save time and money. We
-                        use platforms like Webflow or Mendix.
+                      <p className="content p3 text-centre p8">
+                        Empower Your Business with Low-Code Solutions.We provide
+                        Low code as a user-friendly solution for tailored
+                        application . low code helps in collaboration between
+                        technical and non-technical clients.
                       </p>
                     </div>
                     {/* this is for cloud content */}
@@ -223,7 +223,7 @@ function ServiceTest() {
                       <p className="content p5 text-centre fw-bolder">
                         Cloud Development
                       </p>
-                      <p className="content p3 text-centre">
+                      <p className="content p3 text-centre p8">
                         Furthermore, we use cloud services like Google Cloud,
                         Amazon Web Services, and Microsoft Azure for fast and
                         secure application deployment.
