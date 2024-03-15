@@ -67,11 +67,13 @@ function Contact() {
                 <div className="row ">
                   <div className="col-md pt-4">
                     <img
-                      src={headphones}
-                      width={50}
-                      height={50}
                       className="rounded mx-auto d-block"
+                      width="32"
+                      height="32"
+                      src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/32/FFFFFF/external-headphone-business-management-kmg-design-glyph-kmg-design.png"
+                      alt="external-headphone-business-management-kmg-design-glyph-kmg-design"
                     />
+
                     <div className="col pt-3">
                       <p className="text-center">+91 7010157368</p>
                       <p className="text-center">+91 7904826830</p>
@@ -84,11 +86,13 @@ function Contact() {
                 <div className="row ">
                   <div className="col-md pt-4">
                     <img
-                      src={mail}
-                      width={50}
-                      height={50}
                       className="rounded mx-auto d-block"
+                      width="40"
+                      height="40"
+                      src="https://img.icons8.com/pulsar-line/48/FFFFFF/mail.png"
+                      alt="mail"
                     />
+
                     <div className="col pt-3">
                       <p className="text-center">nexrof6@gmail.com</p>
                     </div>
