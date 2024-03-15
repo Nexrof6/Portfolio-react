@@ -30,7 +30,7 @@ function NavBar() {
         <div className="collapse navbar-collapse " id="navbarNav">
           <ul className="navbar-nav justify-content-end ms-auto">
             <li className="nav-item ">
-              <a className="nav-link active" aria-current="page" href="/#home">
+              <a className="nav-link active" aria-current="page" href="#home">
                 <p className="h6 text-light ">Home</p>
               </a>
             </li>

@@ -1,9 +1,9 @@
 import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
-import bg1 from "/image/bg-1.png";
-import bg2 from "/image/bg-2.png";
-import bg3 from "/image/bg-3.png";
-import bg4 from "/image/bg-4.png";
-import bg5 from "/image/bg-5.png";
+import bg1 from "/image/parallax/bg-1.png";
+import bg2 from "/image/parallax/bg-2.png";
+import bg3 from "/image/parallax/bg-3.png";
+import bg4 from "/image/parallax/bg-4.png";
+import bg5 from "/image/parallax/bg-5.png";
 import "/src/index.css";
 import { ReactNode } from "react";
 

@@ -1,12 +1,12 @@
-import www from "/image/www.png";
-import appdev from "/image/appdev.png";
-import frontend from "/image/frontend.png";
-import backend from "/image/backend.jpeg";
-import quality from "/image/quality.jpeg";
-import encryption from "/image/encryption.jpeg";
-import lowcode from "/image/lowcode.jpeg";
-import cloud from "/image/cloud.png";
-import api from "/image/api.png";
+import www from "/image/service/www.png";
+import appdev from "/image/service/appdev.png";
+import frontend from "/image/service/frontend.png";
+import backend from "/image/service/backend.jpeg";
+import quality from "/image/service/quality.jpeg";
+import encryption from "/image/service/encryption.jpeg";
+import lowcode from "/image/service/lowcode.jpeg";
+import cloud from "/image/service/cloud.png";
+import api from "/image/service/api.png";
 function ServiceTest() {
   return (
     <>
