@@ -14,7 +14,7 @@ function Contact() {
               <div className="form-signin ">
                 <form
                   action="https://nexrof.selfmade.technology/nexrof"
-                  method="post"
+                  method="get"
                 >
                   <div className="">
                     <input
@@ -35,6 +35,7 @@ function Contact() {
                       required
                     ></input>
                   </div>
+
                   <div className="">
                     <input
                       className="bg-light"
@@ -44,6 +45,7 @@ function Contact() {
                       required
                     ></input>
                   </div>
+
                   <div className="">
                     <input
                       className="bg-light"
