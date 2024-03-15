@@ -138,10 +138,18 @@ function Footer() {
           style={{ backgroundColor: "#rgba(0, 0, 0, 0.05)" }}
         >
           {" "}
-          Developed by Nexrof Team © 2024 Copyright:
-          <a className="text-body" href="https://nexrof.com/">
-            Nexrof.com
+          Icons by
+          <a
+            className="text-body container"
+            href="https://icons8.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Icons8
           </a>
+          <br></br>
+          <br></br>
+          Developed by Nexrof
         </div>
       </footer>{" "}
     </>
