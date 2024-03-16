@@ -3,7 +3,19 @@ function NavBar() {
     <nav className="navbar navbar-expand-lg bg-body-tertiaryc p-3 fixed-top glass">
       <div className="container-fluid">
         <a className="navbar-brand " href="#">
-          <h3 className="h3 text-light ">Nexrof</h3>
+          <div className="row">
+            <div className="col">
+              <img
+                width="40"
+                height="40"
+                src="/images/Nexrof.svg"
+                alt="Nexrof"
+              />
+            </div>
+            <div className="col">
+              <h3 className="h3 text-light ">Nexrof</h3>
+            </div>
+          </div>
         </a>
         <button
           className="navbar-toggler "
