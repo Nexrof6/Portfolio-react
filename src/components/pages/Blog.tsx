@@ -22,7 +22,7 @@ function Blog() {
         <div className="album py-5 ">
           <div className="container">
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
-              <div className="col d-flex justify-content-center">
+              <div className="col d-flex justify-content-center zoom">
                 <div
                   className="card shadow-sm bg-dark"
                   style={{ width: "16rem" }}
@@ -57,7 +57,7 @@ function Blog() {
                 </div>
               </div>
 
-              <div className="col d-flex justify-content-center">
+              <div className="col d-flex justify-content-center zoom">
                 <div
                   className="card shadow-sm bg-dark"
                   style={{ width: "16rem" }}

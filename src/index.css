@@ -190,3 +190,11 @@ main {
   height: 15vw;
   object-fit: cover;
 }
+
+.zoom {
+  transition: transform 0.2s;
+}
+
+.zoom:hover {
+  transform: scale(1.03);
+}

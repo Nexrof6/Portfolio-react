@@ -15,7 +15,7 @@ function AboutTest() {
   return (
     <>
       <div id="About">
-        <Parallax2L image="images/about/sagar.jpg">
+        <Parallax2L image="images/about/sagar.png">
           <div className="glass p-5">
             <div
               data-aos="fade-left"
@@ -75,7 +75,7 @@ function AboutTest() {
         </Parallax2L>
         <div style={{ height: `${matches ? "40vh" : "5vh"}` }}></div>
 
-        <Parallax2R image="images/about/dharshan.jpg">
+        <Parallax2R image="images/about/dharshan.png">
           <div className="glass p-5">
             <div
               data-aos="fade-right"
