@@ -29,8 +29,7 @@ function Blog() {
                 >
                   <a href="blog/docker">
                     <img
-                      width="250"
-                      height="250"
+                      className="card-img-top"
                       src="/images/blog/docker.svg"
                       alt=""
                     />
@@ -43,7 +42,7 @@ function Blog() {
                     </p>
                     <div className="d-flex justify-content-between align-items-center">
                       <div className="btn-group">
-                        <a href="docker">
+                        <a href="/blog/docker">
                           <button
                             type="button"
                             className="btn btn-sm btn-outline-secondary rounded-pill"
@@ -65,9 +64,9 @@ function Blog() {
                 >
                   <a href="blog/agi">
                     <img
-                      width="250"
-                      height="250"
-                      src="/images/blog/AGI.svg"
+                      className="card-img-top"
+                      // className="img-thumbnail"
+                      src="/images/blog/agi.svg"
                       alt=""
                     />
                   </a>
@@ -79,7 +78,7 @@ function Blog() {
                     </p>
                     <div className="d-flex justify-content-between align-items-center">
                       <div className="btn-group">
-                        <a href="agi">
+                        <a href="/blog/agi">
                           <button
                             type="button"
                             className="btn btn-sm btn-outline-secondary rounded-pill"
