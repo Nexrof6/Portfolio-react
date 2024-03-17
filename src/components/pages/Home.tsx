@@ -9,7 +9,7 @@ function Home() {
     <>
       <main>
         <NavBar></NavBar>
-        <div className="container">
+        <div className="container py-5">
           <ParallaxMultiLayer>
             <span
               className="display-3"
