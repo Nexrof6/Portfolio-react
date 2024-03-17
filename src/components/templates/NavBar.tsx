@@ -13,7 +13,7 @@ function NavBar() {
               />
             </div>
             <div className="col">
-              <h3 className="h3 text-light ">Nexrof</h3>
+              <h3 className="h3 text-light">Nexrof</h3>
             </div>
           </div>
         </a>
@@ -43,32 +43,28 @@ function NavBar() {
           <ul className="navbar-nav justify-content-end ms-auto">
             <li className="nav-item ">
               <a className="nav-link active" aria-current="page" href="/#">
-                <p className="h6 text-light ">Home</p>
+                <p className="h5 text-light ">Home</p>
               </a>
             </li>
-            {/* <li className="nav-item ">
-              <a className="nav-link" href="#">
-                Resume
-              </a>
-            </li> */}
+
             <li className="nav-item ">
               <a className="nav-link" href="/#About">
-                <p className="h6 text-light ">About</p>
+                <p className="h5 text-light ">About</p>
               </a>
             </li>
             <li className="nav-item ">
               <a className="nav-link" href="/#service">
-                <p className="h6 text-light ">Services</p>
-              </a>
-            </li>
-            <li className="nav-item ">
-              <a className="nav-link" href="/blog">
-                <p className="h6 text-light ">Blog</p>
+                <p className="h5 text-light ">Services</p>
               </a>
             </li>
             <li className="nav-item ">
               <a className="nav-link" href="contact">
-                <p className="h6 text-light ">Contact</p>
+                <p className="h5 text-light ">Contact</p>
+              </a>
+            </li>
+            <li className="nav-item ">
+              <a className="nav-link " href="/blog">
+                <p className="h5 text-success ">Blog</p>
               </a>
             </li>
           </ul>

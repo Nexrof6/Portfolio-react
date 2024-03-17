@@ -19,7 +19,6 @@ function Home() {
               data-aos-offset="0"
               data-aos-once="true"
             >
-              {" "}
               NEXUS REVOLUTION OF THE FUTURE
             </span>
           </ParallaxMultiLayer>
@@ -39,7 +38,7 @@ function Home() {
               <br></br>
               <br></br>
               <div className="row">
-                <h1 style={{ color: "green" }}>Why choose us?</h1>
+                <h1 style={{ color: "green" }}>Why you chose us?</h1>
                 <br></br> <br></br>
                 <p className="content p4">
                   Encryption and Quality are our top most priorities.Also Our
@@ -64,7 +63,7 @@ function Home() {
           </div>
 
           <h1 className="py-5" style={{ color: "purple" }}>
-            MEET THE TEAM
+            Meet Our Team
           </h1>
 
           <AboutTest></AboutTest>
