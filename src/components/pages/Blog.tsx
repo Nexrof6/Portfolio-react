@@ -28,21 +28,12 @@ function Blog() {
                   style={{ width: "16rem" }}
                 >
                   <a href="blog/docker">
-                    <svg
-                      className="bd-placeholder-img card-img-top"
-                      width="100%"
-                      height="225"
-                      role="img"
-                      aria-label="Placeholder: Thumbnail"
-                      preserveAspectRatio="xMidYMid slice"
-                      focusable="false"
-                    >
-                      <title>Placeholder</title>
-                      <rect width="100%" height="100%" fill="#55595c" />
-                      <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                        Thumbnail
-                      </text>
-                    </svg>
+                    <img
+                      width="250"
+                      height="250"
+                      src="/images/blog/docker.svg"
+                      alt=""
+                    />
                   </a>
                   <div className="card-body">
                     <p className="card-text ">
@@ -73,22 +64,12 @@ function Blog() {
                   style={{ width: "16rem" }}
                 >
                   <a href="blog/agi">
-                    <svg
-                      className="bd-placeholder-img card-img-top"
-                      width="100%"
-                      height="225"
-                      xmlns="http://www.w3.org/2000/svg"
-                      role="img"
-                      aria-label="Placeholder: Thumbnail"
-                      preserveAspectRatio="xMidYMid slice"
-                      focusable="false"
-                    >
-                      <title>Placeholder</title>
-                      <rect width="100%" height="100%" fill="#55595c" />
-                      <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                        Thumbnail
-                      </text>
-                    </svg>
+                    <img
+                      width="250"
+                      height="250"
+                      src="/images/blog/AGI.svg"
+                      alt=""
+                    />
                   </a>
                   <div className="card-body">
                     <p className="card-text">
