@@ -41,7 +41,7 @@ function CodeSection({ language, children }: Props) {
       </div>
       <div className="code-content  ">
         <textarea
-          value={children.split("@^").join("\n")}
+          value={children.split("@^").join("\n").split("\\t").join("    ")}
           readOnly
           className="code-editor bg-dark text-light"
           spellCheck="false"
