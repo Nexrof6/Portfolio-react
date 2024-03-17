@@ -25,8 +25,8 @@ function App() {
         <Route path="/about" element={<AboutTest />} />
         <Route path="/service" element={<ServiceTest />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/blogs" element={<Blog />} />
-        <Route path="/blogs/docker" element={<Docker />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/docker" element={<Docker />} />
       </Routes>
     </BrowserRouter>
   );

@@ -63,7 +63,7 @@ function NavBar() {
             </li>
             <li className="nav-item ">
               <a className="nav-link" href="/blogs">
-                <p className="h6 text-light ">Blogs</p>
+                <p className="h6 text-light ">Blog</p>
               </a>
             </li>
             <li className="nav-item ">
