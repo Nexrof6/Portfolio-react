@@ -62,22 +62,13 @@ function Home() {
               />
             </div>
           </div>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <h1 style={{ color: "purple" }}>MEET THE TEAM</h1>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
+
+          <h1 className="py-5" style={{ color: "purple" }}>
+            MEET THE TEAM
+          </h1>
+
           <AboutTest></AboutTest>
           <ServiceTest></ServiceTest>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
         </div>
       </main>
       <Footer></Footer>
