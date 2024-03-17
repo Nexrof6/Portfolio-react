@@ -19,12 +19,12 @@ function ServiceTest() {
             <p className="content p5 fs-1">Our Services</p>
             <br></br>
             <p className="content p5">
-              Achieve your business goals with web development solutions
+              The right web development solutions can take your business to new
+              heights.
             </p>
             <p className="content p6">
-              Our battle-tested developers specialize in a wide range of web
-              development services.Here are some of the solutions that we can
-              deliver for you.
+              Feel free to explore our services and create powerful websites and
+              applications that fulfill specific business needs.
             </p>{" "}
             <br></br>
             <br></br>
@@ -101,7 +101,6 @@ function ServiceTest() {
             </div>
             <br></br>
             <br></br>
-            <p className="content p5 fs-1">What we Use?</p>
             <p className="content p5 fs-1">What You can expect from us!</p>
             <br></br>
             <br></br>
