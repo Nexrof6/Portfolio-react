@@ -64,12 +64,6 @@ function AboutTest() {
                   alt="github"
                 />
               </a>
-              {/* <img
-                width="50"
-                height="50"
-                src="https://img.icons8.com/3d-fluency/94/telegram.png"
-                alt="telegram"
-              /> */}
             </div>
           </div>
         </Parallax2L>
