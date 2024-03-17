@@ -71,7 +71,6 @@ function AGI() {
             exacerbate existing socioeconomic inequalities, leading to job
             displacement and economic disruption if not managed appropriately.
           </p>
-          <CodeSection language="bash">AGI@^ello</CodeSection>
         </div>
       </main>
     </>
