@@ -9,11 +9,12 @@ function Blog() {
         <section className="py-5 text-center container">
           <div className="row py-5">
             <div className="col-lg-6 col-md-8 mx-auto">
-              <h1 className="fw-light">NEXROF</h1>
+              <h1 className="fw-light">NEXROF Blog! 🚀</h1>
               <p className="lead fw-light">
-                Something short and leading about the collection below—its
-                contents, the creator, etc. Make it short and sweet, but not too
-                short so folks don’t simply skip over it entirely.
+                Explore the latest in technology, coding, and software
+                development. From tutorials to deep dives, I share insights,
+                tips, and tricks to level up your tech skills. Let’s geek out
+                together!"
               </p>
             </div>
           </div>
@@ -36,9 +37,9 @@ function Blog() {
                   </a>
                   <div className="card-body">
                     <p className="card-text ">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
+                      Docker is an open-source containerization platform that
+                      allows you to package your application and all its
+                      dependencies into a standardized unit called a container.
                     </p>
                     <div className="d-flex justify-content-between align-items-center">
                       <div className="btn-group">
@@ -72,9 +73,9 @@ function Blog() {
                   </a>
                   <div className="card-body">
                     <p className="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
+                      Artificial General Intelligence (AGI) Unlike narrow AI,
+                      which is designed for specific tasks, AGI aims to emulate
+                      human-like intelligence and adaptability.
                     </p>
                     <div className="d-flex justify-content-between align-items-center">
                       <div className="btn-group">

@@ -9,9 +9,7 @@ function AGI() {
           <div className="row py-5">
             <div className="col-lg-6 col-md-8 mx-auto">
               <h1 className="fw-light">AGI</h1>
-              <p className="lead fw-light">
-                need To past some image related to AGI
-              </p>
+              <p className="lead fw-light"></p>
             </div>
           </div>
         </section>
