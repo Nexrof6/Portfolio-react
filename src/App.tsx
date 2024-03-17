@@ -11,6 +11,7 @@ import { useEffect } from "react";
 import Contact from "./components/pages/Contact.tsx";
 import Blog from "./components/pages/Blog.tsx";
 import Docker from "./components/pages/blogs/Docker.tsx";
+import AGI from "./components/pages/blogs/AGI.tsx";
 
 function App() {
   useEffect(() => {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/docker" element={<Docker />} />
+        <Route path="/blog/agi" element={<AGI />} />
       </Routes>
     </BrowserRouter>
   );
