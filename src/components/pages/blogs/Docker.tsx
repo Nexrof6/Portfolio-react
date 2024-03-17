@@ -10,9 +10,6 @@ function Docker() {
           <div className="row py-5">
             <div className="col-lg-6 col-md-8 mx-auto">
               <h1>Docker</h1>
-              <p className="lead fw-light">
-                need To past some image related to docker
-              </p>
             </div>
           </div>
         </section>
@@ -185,7 +182,7 @@ function Docker() {
           </p>
           <br></br>
           <CodeSection language={"bash"}>
-            FROM python:3 @^ COPY . /app @^ WORKDIR /app @^ CMD ["python", "-m",
+            FROM python:3 \n COPY . /app \n WORKDIR /app \n CMD ["python", "-m",
             "http.server", "8000"]
           </CodeSection>
           <br></br>
@@ -208,8 +205,9 @@ function Docker() {
           </p>
           <br></br>
           <CodeSection language={"bash"}>
-            version: '3' services: web: image: nginx:latest ports: - "80:80" db:
-            image: mysql:latest environment: MYSQL_ROOT_PASSWORD: password
+            version: '3' \nservices: \n\t web: \n\t\t image: nginx:latest \n\t\t
+            ports: \n \t\t\t- "80:80" \n \tdb: \n\t\t image: mysql:latest \n\t\t
+            environment: \n\t\t\t MYSQL_ROOT_PASSWORD: password \n
           </CodeSection>
           <br></br>
           <br></br>
