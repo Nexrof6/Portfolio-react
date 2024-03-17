@@ -62,6 +62,11 @@ function NavBar() {
               </a>
             </li>
             <li className="nav-item ">
+              <a className="nav-link" href="/blogs">
+                <p className="h6 text-light ">Blogs</p>
+              </a>
+            </li>
+            <li className="nav-item ">
               <a className="nav-link" href="contact">
                 <p className="h6 text-light ">Contact</p>
               </a>
