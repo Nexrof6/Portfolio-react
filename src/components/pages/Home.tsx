@@ -51,7 +51,7 @@ function Home() {
             </div>
             <div className="col d-flex justify-content-center align-items-center d-none d-md-block">
               <img
-                src="/image/img-1.png"
+                src="/images/img-1.png"
                 className="img-thumbnail"
                 style={{
                   backgroundColor: "transparent",
