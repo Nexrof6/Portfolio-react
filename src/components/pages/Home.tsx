@@ -1,8 +1,8 @@
 import ParallaxMultiLayer from "../effects/Parallax/ParallaxMultiLayer";
 import Footer from "../templates/Footer";
 import NavBar from "../templates/NavBar";
-import AboutTest from "./AboutTest";
-import ServiceTest from "./ServiceTest";
+import AboutTest from "./About";
+import ServiceTest from "./Service";
 
 function Home() {
   return (
