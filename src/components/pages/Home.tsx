@@ -62,8 +62,8 @@ function Home() {
             </div>
           </div>
 
-          <h1 className="py-5" style={{ color: "purple" }}>
-            Meet Our Team
+          <h1 className="py-5" style={{ color: "green" }}>
+            MEET OUR TEAM
           </h1>
 
           <AboutTest></AboutTest>
