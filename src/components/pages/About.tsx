@@ -23,8 +23,8 @@ function AboutTest() {
               data-aos-easing="ease-in-sine"
               className="text-start display-6"
             >
-              Hey !<br></br> This is SANJAY SAGAR <br></br> Co-Founder and
-              Developer at Nexrof
+              Hey !<br></br> This is SANJAY SAGAR <br></br> FULL STACK DEVELOPER
+              AT NEXROF
             </div>
             <div>
               <a
@@ -77,8 +77,8 @@ function AboutTest() {
               data-aos-easing="ease-in-sine"
               className="text-start display-6"
             >
-              Hey !<br></br> This is DHARSHAN KUMAR <br></br> Co-Founder and
-              Developer at Nexrof
+              Hey !<br></br> This is DHARSHAN KUMAR <br></br> FULL STACK
+              DEVELOPER AT NEXROF
             </div>
             <div>
               <a
@@ -139,8 +139,8 @@ function AboutTest() {
               data-aos-easing="ease-in-sine"
               className="text-start display-6"
             >
-              Hey !<br></br> This is EALIL ADAVAN <br></br> Co-Founder and
-              Developer at Nexrof
+              Hey !<br></br> This is EALIL ADAVAN <br></br> BACKEND DEVELOPER AT
+              NEXROF
             </div>
             <div>
               <a
@@ -201,8 +201,8 @@ function AboutTest() {
               data-aos-easing="ease-in-sine"
               className="text-start display-6"
             >
-              Hey !<br></br> This is DEVASRI<br></br> Co-Founder and Developer
-              at Nexrof
+              Hey !<br></br> This is DEVASRI<br></br> FRONTEND DEVELOPER AT
+              NEXROF
             </div>
             <div>
               <a
