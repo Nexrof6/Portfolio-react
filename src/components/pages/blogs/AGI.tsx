@@ -1,4 +1,3 @@
-import CodeSection from "../../templates/CodeSection";
 import NavBar from "../../templates/NavBar";
 
 function AGI() {
@@ -7,16 +6,19 @@ function AGI() {
       <NavBar></NavBar>
       <main>
         <section className="py-5 text-center container">
-          <div className="row py-5">
-            <div className="col-lg-6 col-md-8 mx-auto">
-              <h1 className="fw-light">AGI</h1>
-              <p className="lead fw-light"></p>
-            </div>
-          </div>
+          <img
+            className="card-img-top img-fluid mt-5 "
+            src="/images/blog/agi.svg"
+            alt=""
+            style={{ height: "20%", width: "20%" }}
+          />
         </section>
         <div className="container">
-          <h1 className="display-5">Artificial General Intelligence</h1>
-          <h2 className="display-6 pt-3">What is AGI?</h2>
+          <h1 className="display-5 p5">Artificial General Intelligence</h1>
+          <br></br>
+          <br></br>
+          <h2 className="display-6 pt-3 p5">What is AGI?</h2>
+          <br></br>
           <p>
             Artificial General Intelligence (AGI) refers to AI systems that
             possess the ability to understand, learn, and apply knowledge in a
@@ -24,7 +26,10 @@ function AGI() {
             contexts. Unlike narrow AI, which is designed for specific tasks,
             AGI aims to emulate human-like intelligence and adaptability.
           </p>
-          <h2 className="display-6 pt-3">Difference Between AGI and AI</h2>
+          <br></br>
+          <br></br>
+          <h2 className="display-6 pt-3 p5">Difference Between AGI and AI</h2>
+          <br></br>
           <p>
             AGI aims to emulate human-like intelligence across diverse tasks and
             contexts, whereas AI systems are typically designed for specific
@@ -40,7 +45,10 @@ function AGI() {
             environment in a manner similar to humans, whereas AI systems often
             lack deeper comprehension and operate based on patterns and data.
           </p>
-          <h2 className="display-6">Advantages of AGI</h2>
+          <br></br>
+          <br></br>
+          <h2 className="display-6 p5">Advantages of AGI</h2>
+          <br></br>
           <p>
             Versatility: AGI can potentially perform a wide range of tasks,
             making it highly versatile across industries and domains.
@@ -55,7 +63,10 @@ function AGI() {
             mundane tasks, allowing humans to focus on creative and strategic
             endeavors.
           </p>
-          <h2 className="display-6">Disadvantages of AGI </h2>
+          <br></br>
+          <br></br>
+          <h2 className="display-6 p5">Disadvantages of AGI </h2>
+          <br></br>
           <p>
             Ethical Concerns: AGI raises significant ethical concerns, including
             the potential for misuse, job displacement, and biases embedded in

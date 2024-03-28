@@ -6,15 +6,16 @@ function Docker() {
     <>
       <NavBar></NavBar>
       <main>
-        <section className="py-5 text-center container">
-          <div className="row py-5">
-            <div className="col-lg-6 col-md-8 mx-auto">
-              <h1>Docker</h1>
-            </div>
-          </div>
+        <section className=" text-center container pt-5">
+          <img
+            className="card-img-top img-fluid mt-5 "
+            src="/images/blog/dockericon.svg"
+            alt=""
+            style={{ height: "30%", width: "30%" }}
+          />
         </section>
         <div className="container">
-          <h1>Introduction to Docker</h1>
+          <h1 className="p5">Introduction to Docker</h1>
           <br></br>
           <br></br>
           <h3>What is Docker?</h3>
@@ -54,7 +55,7 @@ function Docker() {
           </ul>
           <br></br>
           <br></br>
-          <h1>Getting Started with Docker</h1>
+          <h1 className="p5">Getting Started with Docker</h1>
           <br></br>
           <br></br>
           <h3>Installing Docker</h3>
@@ -152,7 +153,7 @@ function Docker() {
           <CodeSection language={"bash"}>docker --version</CodeSection>
           <br></br>
           <br></br>
-          <h1>Running Your First Docker Container</h1>
+          <h1 className="p5">Running Your First Docker Container</h1>
           <br></br>
           <p>
             Once Docker is installed, you can run your first Docker container
@@ -171,7 +172,7 @@ function Docker() {
           </p>
           <br></br>
           <br></br>
-          <h1>Docker Images</h1>
+          <h1 className="p5">Docker Images</h1>
           <br></br>
 
           <p>
@@ -193,7 +194,7 @@ function Docker() {
           </p>
           <br></br>
           <br></br>
-          <h1>Docker Run</h1>
+          <h1 className="p5">Docker Run</h1>
           <br></br>
           <p>
             Certainly! The docker run command is quite versatile, offering a
@@ -379,9 +380,9 @@ function Docker() {
 
           <br></br>
 
-          <h1>Advanced Docker Concepts</h1>
+          <h1 className="p5">Advanced Docker Concepts</h1>
           <br></br>
-          <h3>Docker Compose</h3>
+          <h3 className="p5">Docker Compose</h3>
           <br></br>
           <p>
             Docker Compose is a tool for defining and running multi-container
@@ -403,7 +404,7 @@ function Docker() {
             application defined in the Docker Compose file.
           </p>
           <br></br>
-          <h2>Docker Swarm and Kubernetes</h2>
+          <h2 className="p5">Docker Swarm and Kubernetes</h2>
           <br></br>
           <p>
             Docker Swarm and Kubernetes are orchestration tools for managing
@@ -413,7 +414,7 @@ function Docker() {
           </p>
           <br></br>
 
-          <h1>Conclusion</h1>
+          <h1 className="p5">Conclusion</h1>
           <br></br>
           <p>
             Docker has revolutionized the way developers build, ship, and run
