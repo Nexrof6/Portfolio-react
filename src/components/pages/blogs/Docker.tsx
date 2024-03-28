@@ -192,6 +192,13 @@ function Docker() {
             then run a container using the built image.
           </p>
           <br></br>
+          <p>Specifies the Docker image to use for creating the container.</p>
+          <CodeSection language={"bash"}>docker run ubuntu</CodeSection>
+          <br></br>
+          <p>
+            This will create a new container using the latest version of the
+            ubuntu image.
+          </p>
           <h1>Advanced Docker Concepts</h1>
           <br></br>
           <h3>Docker Compose</h3>
