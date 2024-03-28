@@ -192,13 +192,193 @@ function Docker() {
             then run a container using the built image.
           </p>
           <br></br>
-          <p>Specifies the Docker image to use for creating the container.</p>
+          <br></br>
+          <h1>Docker Run</h1>
+          <br></br>
+          <p>
+            Certainly! The docker run command is quite versatile, offering a
+            variety of options and arguments to customize the behavior of the
+            container being created. Here's a comprehensive list of arguments
+            and options you can use with docker run, along with explanations:
+          </p>
+          <br></br>
+          <h3>IMAGE</h3>
+          <p>
+            The below Command Specifies the Docker <b>'image'</b> to use for
+            creating the container.
+          </p>
           <CodeSection language={"bash"}>docker run ubuntu</CodeSection>
           <br></br>
           <p>
-            This will create a new container using the latest version of the
-            ubuntu image.
+            This will create a new container using the latest version of the{" "}
+            <b>'ubuntu'</b> image.
           </p>
+          <br></br>
+          <h3>TAG</h3>
+          <p>
+            The below Command Specifies a particular version or <b>'tag'</b> of
+            the Docker image.
+          </p>
+          <CodeSection language={"bash"}>docker run ubuntu:18.04</CodeSection>
+          <br></br>
+          <p>
+            This will create a new container using the ubuntu image with the{" "}
+            <b>'18.04'</b> tag.
+          </p>
+          <br></br>
+          <h3>COMMAND</h3>
+          <p>
+            The below Command Overrides the default <b>'command'</b> specified
+            in the Docker image.
+          </p>
+          <CodeSection language={"bash"}>
+            docker run ubuntu echo "Hello, World!"
+          </CodeSection>
+          <br></br>
+          <p>
+            This will create a new container using the ubuntu image and execute
+            the echo <b> ' "Hello, World!" command '</b> inside it.
+          </p>
+          <br></br>
+          <h3>ARGUMENTS</h3>
+          <p>
+            Additional <b>'arguments'</b> that can be passed to the command
+            specified in the Docker image.
+          </p>
+          <CodeSection language={"bash"}>
+            docker run ubuntu ls -la /
+          </CodeSection>
+          <br></br>
+          <p>
+            This will create a new container using the ubuntu image and execute
+            the <b>'ls -la /'</b> command inside it.
+          </p>
+          <br></br>
+          <h2>OPTIONS</h2>
+          <br></br>
+          <h3>General Options</h3>
+          <p>
+            <b>' - -d, --detach '</b> Run the container in detached mode (in the
+            background).
+          </p>
+          <CodeSection language={"bash"}>docker run -d ubuntu</CodeSection>
+          <br></br>
+          <p>
+            This will create a new container using the ubuntu image and run it
+            in <b>'detached'</b> mode.
+          </p>
+          <br></br>
+          <p>
+            <b>' - -it, --interactive --tty '</b> Run the container in
+            interactive mode with a pseudo-TTY.
+          </p>
+          <CodeSection language={"bash"}>
+            docker run -it ubuntu /bin/bash
+          </CodeSection>
+          <br></br>
+          <p>
+            This will create a new container using the ubuntu image and start an{" "}
+            <b>'interactive'</b> Bash shell inside it.
+          </p>
+          <br></br>
+          <h3>Resource Constraints</h3>
+          <p>
+            <b> ' - --cpus '</b> Limit the CPU shares for the container.
+          </p>
+          <CodeSection language={"bash"}>
+            docker run --cpus 0.5 ubuntu
+          </CodeSection>
+          <br></br>
+          <p>
+            This will create a new container using the ubuntu image with limited{" "}
+            <b>'CPU shares (0.5).'</b>
+          </p>
+          <br></br>
+          <p>
+            <b>' - --memory '</b> Set a memory limit for the container.
+          </p>
+          <CodeSection language={"bash"}>
+            docker run --memory 512m ubuntu
+          </CodeSection>
+          <br></br>
+          <p>
+            This will create a new container using the ubuntu image with a{" "}
+            <b>' memory limit of 512 megabytes.'</b>
+          </p>
+          <br></br>
+          <h3>Networking</h3>
+          <p>
+            <b>' - -p, --publish '</b> Publish a container's port(s) to the
+            host.
+          </p>
+          <CodeSection language={"bash"}>
+            docker run -p 8080:80 nginx
+          </CodeSection>
+          <br></br>
+          <p>
+            This will create a new container using the nginx image and map{" "}
+            <b>'port 80'</b> inside the container to <b>'port 8080'</b> on the
+            host.
+          </p>
+          <br></br>
+          <p>
+            <b>' - --network '</b> Connect the container to a Docker network.
+          </p>
+          <CodeSection language={"bash"}>
+            docker run --network=my_network nginx
+          </CodeSection>
+          <br></br>
+          <p>
+            This will create a new container using the nginx image and connect
+            it to the <b>'my_network '</b>Docker network.
+          </p>
+          <br></br>
+          <h3>Volume Mounting</h3>
+          <p>
+            <b>' - -v, --volume '</b> Bind mount a volume.
+          </p>
+          <CodeSection language={"bash"}>
+            docker run -v /host/path:/container/path ubuntu
+          </CodeSection>
+          <br></br>
+          <p>
+            This will create a new container using the ubuntu image and{" "}
+            <b>' mount the /host/path '</b> directory on the host to{" "}
+            <b> ' /container/path '</b> inside the container.
+          </p>
+          <br></br>
+          <h3>Environment Variables</h3>
+          <p>
+            <b> ' - -e, --env '</b> Set environment variables.
+          </p>
+          <CodeSection language={"bash"}>
+            docker run -e MYSQL_ROOT_PASSWORD=my-secret-password mysql
+          </CodeSection>
+          <br></br>
+          <p>
+            This will create a new container using the mysql image and set the{" "}
+            <b>'MYSQL_ROOT_PASSWORD environment variable.'</b>
+          </p>
+          <br></br>
+          <h3>Conclusion</h3>
+          <p>
+            These are some of the most commonly used arguments and options for
+            the docker run command. Docker provides a wide range of other
+            options and configurations to customize container behavior further.
+            You can always refer to the official{" "}
+            <a
+              href="https://docs.docker.com/engine/reference/run/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Docker
+            </a>{" "}
+            documentation for a complete list of options and their detailed
+            explanations.
+          </p>
+
+          <br></br>
+
           <h1>Advanced Docker Concepts</h1>
           <br></br>
           <h3>Docker Compose</h3>
