@@ -90,7 +90,7 @@ function ServiceTest() {
                   </p>
                   <p className="content p6 text-centre">
                     We build APIs that allow different software components to
-                    communicate. Our APIs are powerful, resilient, and secure .
+                    communicate. Our APIs are powerful, resilient, and secure
                   </p>
                 </div>
                 <div className="col"></div>
@@ -184,7 +184,7 @@ function ServiceTest() {
                         With the security of your online presence as our
                         priority, you can safeguard your valuable data and build
                         trust with your customers.Trust is the foundation of
-                        every partnership .
+                        every partnership
                       </p>
                     </div>
                     {/* this is for lowcode development content */}

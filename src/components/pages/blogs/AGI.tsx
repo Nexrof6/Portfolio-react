@@ -28,6 +28,18 @@ function AGI() {
           </p>
           <br></br>
           <br></br>
+          <h2 className="display-6 pt-3 p5">History of AGI</h2>
+          <br></br>
+          <p>
+            The concept of AGI has been around for decades, with early ideas
+            dating back to the 1950s. Over the years, researchers and scientists
+            have made significant progress in understanding intelligence and
+            developing AI systems that exhibit human-like abilities. However,
+            achieving true AGI remains a challenging task that requires
+            overcoming various technical and theoretical hurdles
+          </p>
+          <br></br>
+          <br></br>
           <h2 className="display-6 pt-3 p5">Difference Between AGI and AI</h2>
           <br></br>
           <p>
@@ -47,6 +59,57 @@ function AGI() {
           </p>
           <br></br>
           <br></br>
+          <h2 className="display-6 pt-3 p5">Key Components of AGI:</h2>
+          <br></br>
+          <p>
+            AGI requires several key components, including advanced machine
+            learning algorithms, natural language processing capabilities, and
+            the ability to reason and make decisions in complex situations.
+            These components are essential for enabling AGI systems to learn
+            from experience, adapt to new situations, and perform a wide range
+            of tasks with human-like proficiency
+          </p>
+          <br></br>
+          <br></br>
+          <h2 className="display-6 pt-3 p5">Challenges in Developing AGI</h2>
+          <br></br>
+          <p>
+            Developing AGI poses several challenges, including the need for more
+            powerful and efficient AI algorithms, the ethical implications of
+            creating highly intelligent machines, and the potential risks
+            associated with AGI, such as loss of jobs and societal disruption.
+            Addressing these challenges will require interdisciplinary
+            collaboration and careful consideration of the ethical and societal
+            implications of AGI
+          </p>
+          <br></br>
+          <br></br>
+          <h2 className="display-6 pt-3 p5">Current State of AGI Research</h2>
+          <br></br>
+          <p>
+            While significant progress has been made in AI research, true AGI
+            remains a distant goal. Current AI systems excel in specific tasks,
+            such as image recognition and natural language processing, but lack
+            the generalization and adaptability of human intelligence.
+            Researchers are exploring various approaches to AGI, including
+            neural networks, reinforcement learning, and cognitive
+            architectures, but much work remains to be done
+          </p>
+          <br></br>
+          <br></br>
+          <h2 className="display-6 pt-3 p5">Future Implications of AGI</h2>
+          <br></br>
+          <p>
+            The development of AGI could have profound implications for society,
+            including changes in the nature of work, the economy, and
+            human-machine interactions. While AGI has the potential to bring
+            about significant benefits, such as improved healthcare,
+            transportation, and education, it also raises concerns about job
+            displacement, privacy, and the ethical use of AI
+          </p>
+          <br></br>
+          <br></br>
+
           <h2 className="display-6 p5">Advantages of AGI</h2>
           <br></br>
           <p>
@@ -82,6 +145,19 @@ function AGI() {
             exacerbate existing socioeconomic inequalities, leading to job
             displacement and economic disruption if not managed appropriately.
           </p>
+          <br></br>
+          <h2 className="display-6 pt-3 p5">Conclusion</h2>
+          <br></br>
+          <p>
+            In conclusion, AGI represents a significant milestone in AI
+            development, with the potential to transform industries and society.
+            However, achieving AGI will require overcoming numerous technical,
+            ethical, and societal challenges. By addressing these challenges
+            thoughtfully and responsibly, we can harness the power of AGI to
+            create a brighter future for all
+          </p>
+          <br></br>
+          <br></br>
         </div>
       </main>
     </>
