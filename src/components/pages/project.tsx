@@ -8,15 +8,14 @@ function Project() {
     <>
       <NavBar></NavBar>
 
-      <main style={{ paddingTop: "8%" }}>
-        <h1 className="text-center p5">Know about our Latest Works</h1>
+      <main style={{ paddingTop: "15%" }}>
         <br></br>
 
         <div className="container md mt-3">
           <div className="row">
             <div className="col">
               <div
-                className="card img-fluid bg-secondary bg-opacity-25"
+                className="border border-3 border-success card img-fluid bg-secondary bg-opacity-25"
                 style={{ width: "500px" }}
               >
                 <img
@@ -25,19 +24,33 @@ function Project() {
                   height={400}
                   className="rounded float-start "
                 />
-                <a href="/projects/portfolios" className="btn btn-primary">
-                  See Profile
-                </a>
+
                 <div className="card-img-overlay">
-                  <p className="card-text p-2 fw-bolder p5">
-                    CHECK OUT FOR MORE LATEST <br></br>PORTFOLIO PAGES BY US
-                    CLICKING ON <br></br> VIEW MORE
-                  </p>
+                  <h6 className="card-text p-2 fw-bolder p5">
+                    Click on view more <br></br> to see more of our portfolio
+                    project
+                  </h6>
+                  <a
+                    href="/projects/portfolios"
+                    className="btn btn-success bg-success p-2 text-white
+                     bg-opacity-50"
+                  >
+                    View More
+                  </a>
                 </div>
               </div>
             </div>
+
             <div className="col">
-              <p>this is sample text</p>
+              <h3 className="p5 p-2 border-bottom border-success">
+                <br></br>
+                PORTFOLIO WEBSITES
+              </h3>
+              <p className="fs-2 p-2 fw-bolder">
+                Professional Portfolio websites that are elagantly built with
+                React,Vannila Js and Bootstrap . Our websites are made to the
+                taste of the clients
+              </p>
             </div>
           </div>
           <br></br>
