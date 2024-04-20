@@ -66,7 +66,7 @@ function Contact() {
             </div>
             <div className="col-md"></div>
             <div className="col-md-4 bg-dark banner-contact d-none d-md-block">
-              <h4 className="container ms-5 mt-4 ">Contact info</h4>
+              <h4 className="container ms-5 mt-4 ">Contact info :</h4>
               <div className="container ">
                 <div className="row ">
                   <div className="col-md pt-4">

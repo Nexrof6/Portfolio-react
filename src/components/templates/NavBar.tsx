@@ -58,6 +58,11 @@ function NavBar() {
               </a>
             </li>
             <li className="nav-item ">
+              <a className="nav-link" href="/projects">
+                <p className="h5 text-light ">Projects</p>
+              </a>
+            </li>
+            <li className="nav-item ">
               <a className="nav-link" href="contact">
                 <p className="h5 text-light ">Contact</p>
               </a>

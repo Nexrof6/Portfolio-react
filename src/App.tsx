@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/pages/Home.js";
 
 import Contact from "./components/pages/Contact.tsx";
+import Project from "./components/pages/project.tsx";
 import Blog from "./components/pages/Blog.tsx";
 import Docker from "./components/pages/blogs/Docker.tsx";
 import AGI from "./components/pages/blogs/AGI.tsx";
@@ -21,6 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Project />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/docker" element={<Docker />} />
         <Route path="/blog/agi" element={<AGI />} />
