@@ -9,8 +9,6 @@ function Project() {
       <NavBar></NavBar>
 
       <main style={{ paddingTop: "15%" }}>
-        <br></br>
-
         <div className="container md mt-3">
           <div className="row">
             <div className="col">
@@ -48,7 +46,7 @@ function Project() {
               </h3>
               <p className="fs-2 p-2 fw-bolder">
                 Professional Portfolio websites that are elagantly built with
-                React,Vannila Js and Bootstrap . Our websites are made to the
+                React,Vannila Js and Bootstrap.Our websites are made to the
                 taste of the clients
               </p>
             </div>

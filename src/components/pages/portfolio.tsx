@@ -6,6 +6,7 @@ function Portfolio() {
   return (
     <>
       <NavBar></NavBar>
+      <main style={{ paddingTop: "15%" }}></main>
     </>
   );
 }
